@@ -1,0 +1,28 @@
+{
+  "ps2_iso": {
+    "path": "../../originalGame/Di Gi Charat Fantasy Excellent (Japan) (Premium-ban).iso",
+    "size": 1646854144,
+    "sha256": "580e033b1833aadb98bec2dd083f24000d09d7201df3473cdbeb8f56a46433e5"
+  },
+  "windows": {
+    "root": "../../originalGame/DigiCarr_Win",
+    "files": {
+      "data.pak": {
+        "size": 312384667,
+        "sha256": "9f3e4c220e19645a2af03738d6f2e197090228a38e4354b9520d344c6c2dd92e"
+      },
+      "voice.pak": {
+        "size": 655093442,
+        "sha256": "f1e4304ac8d16b804e8932e2a837a002a8107f22ecb1c75f9d9759111971eec8"
+      },
+      "voice2.pak": {
+        "size": 94769871,
+        "sha256": "8159a425ffb46dd115e0a9803543dcf172b6b49ce3df86df9ddef0af8de2d314"
+      },
+      "deji.exe": {
+        "size": 462848,
+        "sha256": "48ce8147c8c9e58ab2d8df6271e0c61f79c477e69abf72420374175dbbd7983d"
+      }
+    }
+  }
+}

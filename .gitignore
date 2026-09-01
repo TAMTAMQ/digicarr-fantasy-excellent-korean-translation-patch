@@ -1,0 +1,89 @@
+# Local dependencies / Python caches
+.deps/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Original / extracted / runtime game data
+assets/extraction/**
+!assets/extraction/ps2/
+assets/extraction/ps2/**
+!assets/extraction/ps2/SLPM_653.95.japanese_strings_all.json
+assets/runtime/
+
+# Keep only final translation inputs used by the release build
+assets/translation/*
+!assets/translation/scenario.json
+!assets/translation/system_strings.json
+!assets/translation/system_strings_ps2_extra.json
+!assets/translation/credits_worklist.json
+!assets/translation/scenario_auxiliary.json
+
+# Public tool set: keep only release build/verification utilities
+tools/*
+!tools/build_translation_iso.py
+!tools/credits_codec.py
+!tools/font_codec.py
+!tools/formats.py
+!tools/image_formats.py
+!tools/name_input_ko.py
+!tools/scx.py
+!tools/scenario_aux.py
+!tools/verify_inputs.py
+!tools/rebuild_subtitled_sfd.py
+!tools/sfd_tool.py
+!tools/sfd_demux_all.py
+
+# Build / release outputs (publish release artifacts via GitHub Releases)
+build/
+release/
+cache/
+*.iso
+*.bin
+*.img
+*.cue
+*.afs
+*.pak
+*.pvr
+*.fon
+*.SFD
+*.sfd
+*.m2v
+*.adx
+*.wav
+*.xdelta
+*.vcdiff
+*.log
+
+# Image assets are intentionally not published in Git
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.webp
+*.tga
+*.psd
+*.svg
+*.tif
+*.tiff
+*.ico
+*.avif
+*.heic
+*.dds
+
+# Local/internal project notes
+.webjjongku-trash/
+AGENTS.md
+STATUS.md
+RELEASE_NOTES_v0.1.md
+MOVIE_RUNTIME_TEST.md
+PRO_SFD_RUNTIME_ISSUE.md
+nul
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp

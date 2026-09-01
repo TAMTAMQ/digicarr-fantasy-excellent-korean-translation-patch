@@ -1,0 +1,4338 @@
+{
+  "note": "Completeness superset; contains false positives and is not an automatic translation list.",
+  "record_count": 722,
+  "records": [
+    {
+      "section": ".data",
+      "file_offset": 803522,
+      "source_byte_length": 2,
+      "text": "愿"
+    },
+    {
+      "section": ".data",
+      "file_offset": 803594,
+      "source_byte_length": 3,
+      "text": "愿@"
+    },
+    {
+      "section": ".data",
+      "file_offset": 803642,
+      "source_byte_length": 3,
+      "text": "愿@"
+    },
+    {
+      "section": ".data",
+      "file_offset": 803690,
+      "source_byte_length": 2,
+      "text": "愿"
+    },
+    {
+      "section": ".data",
+      "file_offset": 803858,
+      "source_byte_length": 3,
+      "text": "愿@"
+    },
+    {
+      "section": ".data",
+      "file_offset": 803906,
+      "source_byte_length": 3,
+      "text": "愿@"
+    },
+    {
+      "section": ".data",
+      "file_offset": 803954,
+      "source_byte_length": 2,
+      "text": "愿"
+    },
+    {
+      "section": ".data",
+      "file_offset": 804002,
+      "source_byte_length": 2,
+      "text": "愿"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805004,
+      "source_byte_length": 3,
+      "text": "杉 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 805028,
+      "source_byte_length": 3,
+      "text": "杉 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 805052,
+      "source_byte_length": 3,
+      "text": "杉 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 805225,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805245,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805265,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805270,
+      "source_byte_length": 6,
+      "text": "yC劔ﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805285,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805290,
+      "source_byte_length": 6,
+      "text": "yC劔ﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805305,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805310,
+      "source_byte_length": 6,
+      "text": "yC劔ﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805325,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805330,
+      "source_byte_length": 6,
+      "text": "yC劔ﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805345,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805350,
+      "source_byte_length": 6,
+      "text": "yC劔ﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805365,
+      "source_byte_length": 3,
+      "text": "櫃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805370,
+      "source_byte_length": 6,
+      "text": "yC劔ﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 805390,
+      "source_byte_length": 6,
+      "text": "櫃ﾌﾌﾇﾂ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809490,
+      "source_byte_length": 2,
+      "text": "澆"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809538,
+      "source_byte_length": 2,
+      "text": "舛"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809599,
+      "source_byte_length": 13,
+      "text": "C(\\淆33s?\\渉>"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809640,
+      "source_byte_length": 22,
+      "text": "既読メッセージスキップ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809664,
+      "source_byte_length": 18,
+      "text": "メッセージ枠非表示"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809688,
+      "source_byte_length": 14,
+      "text": "メッセージ速度"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809712,
+      "source_byte_length": 10,
+      "text": "音　　　楽"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809736,
+      "source_byte_length": 10,
+      "text": "効　果　音"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809760,
+      "source_byte_length": 10,
+      "text": "音　　　声"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809784,
+      "source_byte_length": 10,
+      "text": "振　　　動"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809808,
+      "source_byte_length": 14,
+      "text": "タイトルへ戻る"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809832,
+      "source_byte_length": 14,
+      "text": "　決　　　定　"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809856,
+      "source_byte_length": 14,
+      "text": "　キャンセル　"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809952,
+      "source_byte_length": 4,
+      "text": "最速"
+    },
+    {
+      "section": ".data",
+      "file_offset": 809976,
+      "source_byte_length": 4,
+      "text": "速い"
+    },
+    {
+      "section": ".data",
+      "file_offset": 810000,
+      "source_byte_length": 4,
+      "text": "通常"
+    },
+    {
+      "section": ".data",
+      "file_offset": 810024,
+      "source_byte_length": 4,
+      "text": "遅い"
+    },
+    {
+      "section": ".data",
+      "file_offset": 811048,
+      "source_byte_length": 96,
+      "text": "　　　　タイトルへ戻ります\nセーブをしていない場合、現在までの\n情報が失われますがよろしいですか？"
+    },
+    {
+      "section": ".data",
+      "file_offset": 811152,
+      "source_byte_length": 12,
+      "text": "　は　　い　"
+    },
+    {
+      "section": ".data",
+      "file_offset": 811166,
+      "source_byte_length": 12,
+      "text": " い　い　え "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811388,
+      "source_byte_length": 3,
+      "text": "娃 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811426,
+      "source_byte_length": 2,
+      "text": "魲"
+    },
+    {
+      "section": ".data",
+      "file_offset": 811438,
+      "source_byte_length": 2,
+      "text": "殖"
+    },
+    {
+      "section": ".data",
+      "file_offset": 811504,
+      "source_byte_length": 3,
+      "text": "逢 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811508,
+      "source_byte_length": 3,
+      "text": "制 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811512,
+      "source_byte_length": 3,
+      "text": "乂 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811548,
+      "source_byte_length": 3,
+      "text": "爰 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811552,
+      "source_byte_length": 3,
+      "text": "隗 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811632,
+      "source_byte_length": 3,
+      "text": "葵 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811636,
+      "source_byte_length": 3,
+      "text": "勢 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811640,
+      "source_byte_length": 3,
+      "text": "乖 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811676,
+      "source_byte_length": 3,
+      "text": "爲 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811680,
+      "source_byte_length": 3,
+      "text": "險 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811760,
+      "source_byte_length": 3,
+      "text": "茜 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811764,
+      "source_byte_length": 3,
+      "text": "姓 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811768,
+      "source_byte_length": 3,
+      "text": "乘 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811804,
+      "source_byte_length": 3,
+      "text": "爻 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811808,
+      "source_byte_length": 3,
+      "text": "隧 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811888,
+      "source_byte_length": 3,
+      "text": "穐 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811892,
+      "source_byte_length": 3,
+      "text": "征 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 811896,
+      "source_byte_length": 3,
+      "text": "亂 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 813472,
+      "source_byte_length": 3,
+      "text": "氓ﾑ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 813512,
+      "source_byte_length": 2,
+      "text": "汕"
+    },
+    {
+      "section": ".data",
+      "file_offset": 813516,
+      "source_byte_length": 3,
+      "text": "@運"
+    },
+    {
+      "section": ".data",
+      "file_offset": 813520,
+      "source_byte_length": 3,
+      "text": "汢ｼ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 813644,
+      "source_byte_length": 3,
+      "text": "@竸"
+    },
+    {
+      "section": ".data",
+      "file_offset": 813648,
+      "source_byte_length": 3,
+      "text": "泗ｼ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823295,
+      "source_byte_length": 7,
+      "text": " 咫咫咫"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823303,
+      "source_byte_length": 7,
+      "text": " 蕁蕁蕁"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823375,
+      "source_byte_length": 7,
+      "text": " イイイ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823431,
+      "source_byte_length": 7,
+      "text": " 孔孔孔"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823586,
+      "source_byte_length": 4,
+      "text": "ﾈ\n科"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823618,
+      "source_byte_length": 4,
+      "text": "c\n写"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823634,
+      "source_byte_length": 4,
+      "text": "1\n斥"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823650,
+      "source_byte_length": 4,
+      "text": "\t栂"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823666,
+      "source_byte_length": 4,
+      "text": "ﾍ\t範"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823698,
+      "source_byte_length": 4,
+      "text": "h\t厮"
+    },
+    {
+      "section": ".data",
+      "file_offset": 823714,
+      "source_byte_length": 4,
+      "text": "6\t嶢"
+    },
+    {
+      "section": ".data",
+      "file_offset": 824420,
+      "source_byte_length": 2,
+      "text": "浯"
+    },
+    {
+      "section": ".data",
+      "file_offset": 824994,
+      "source_byte_length": 4,
+      "text": "懐H!"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825074,
+      "source_byte_length": 4,
+      "text": "綬S&"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825154,
+      "source_byte_length": 4,
+      "text": "肉^+"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825234,
+      "source_byte_length": 4,
+      "text": "咢h0"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825314,
+      "source_byte_length": 4,
+      "text": "樸s5"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825402,
+      "source_byte_length": 4,
+      "text": "幾:"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825482,
+      "source_byte_length": 4,
+      "text": "状\n@"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825968,
+      "source_byte_length": 4,
+      "text": "ﾟ萪\r"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825976,
+      "source_byte_length": 4,
+      "text": "E蝙\r"
+    },
+    {
+      "section": ".data",
+      "file_offset": 825984,
+      "source_byte_length": 4,
+      "text": "ｫ號\r"
+    },
+    {
+      "section": ".data",
+      "file_offset": 826136,
+      "source_byte_length": 4,
+      "text": "@寬\t"
+    },
+    {
+      "section": ".data",
+      "file_offset": 826144,
+      "source_byte_length": 4,
+      "text": "ｦ倢\t"
+    },
+    {
+      "section": ".data",
+      "file_offset": 827160,
+      "source_byte_length": 4,
+      "text": "R 奇"
+    },
+    {
+      "section": ".data",
+      "file_offset": 827240,
+      "source_byte_length": 4,
+      "text": "O$わ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 827304,
+      "source_byte_length": 4,
+      "text": "'粱"
+    },
+    {
+      "section": ".data",
+      "file_offset": 829586,
+      "source_byte_length": 4,
+      "text": "ｭ\n綿"
+    },
+    {
+      "section": ".data",
+      "file_offset": 829610,
+      "source_byte_length": 4,
+      "text": "l\n篷"
+    },
+    {
+      "section": ".data",
+      "file_offset": 830420,
+      "source_byte_length": 2,
+      "text": "棄"
+    },
+    {
+      "section": ".data",
+      "file_offset": 833488,
+      "source_byte_length": 6,
+      "text": "$\"ゐﾚ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 833504,
+      "source_byte_length": 6,
+      "text": "ﾓ\")顥"
+    },
+    {
+      "section": ".data",
+      "file_offset": 833520,
+      "source_byte_length": 6,
+      "text": "ﾙ#｢毖"
+    },
+    {
+      "section": ".data",
+      "file_offset": 833528,
+      "source_byte_length": 6,
+      "text": "0$u毖"
+    },
+    {
+      "section": ".data",
+      "file_offset": 833592,
+      "source_byte_length": 6,
+      "text": "C'粱ﾔ"
+    },
+    {
+      "section": ".data",
+      "file_offset": 833672,
+      "source_byte_length": 6,
+      "text": "[+ﾉ鰕"
+    },
+    {
+      "section": ".data",
+      "file_offset": 960160,
+      "source_byte_length": 3,
+      "text": "色 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 963356,
+      "source_byte_length": 3,
+      "text": "濂 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 963368,
+      "source_byte_length": 3,
+      "text": "浪 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 963812,
+      "source_byte_length": 3,
+      "text": "禄 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 963816,
+      "source_byte_length": 3,
+      "text": "鐔 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 963820,
+      "source_byte_length": 3,
+      "text": "濬 "
+    },
+    {
+      "section": ".data",
+      "file_offset": 973626,
+      "source_byte_length": 2,
+      "text": "う"
+    },
+    {
+      "section": ".data",
+      "file_offset": 973802,
+      "source_byte_length": 2,
+      "text": "筅"
+    },
+    {
+      "section": ".data",
+      "file_offset": 974830,
+      "source_byte_length": 3,
+      "text": "･臭"
+    },
+    {
+      "section": ".data",
+      "file_offset": 975734,
+      "source_byte_length": 3,
+      "text": "T掘"
+    },
+    {
+      "section": ".data",
+      "file_offset": 975890,
+      "source_byte_length": 2,
+      "text": "筈"
+    },
+    {
+      "section": ".data",
+      "file_offset": 976054,
+      "source_byte_length": 3,
+      "text": "C繰"
+    },
+    {
+      "section": ".data",
+      "file_offset": 976730,
+      "source_byte_length": 2,
+      "text": "吃"
+    },
+    {
+      "section": ".data",
+      "file_offset": 977634,
+      "source_byte_length": 2,
+      "text": "筮"
+    },
+    {
+      "section": ".data",
+      "file_offset": 977993,
+      "source_byte_length": 3,
+      "text": "(ァ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1005734,
+      "source_byte_length": 6,
+      "text": "(C劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1005776,
+      "source_byte_length": 118,
+      "text": "　　コントローラが接続されていません。\nゲームを開始するには、本体にコントローラを\n　　　　　　接続する必要があります。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1005896,
+      "source_byte_length": 136,
+      "text": "　　　現在本体に接続されているコントローラでは\n　　　このゲームをプレイすることはできません。\n　　　　　コントローラを接続してください。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006040,
+      "source_byte_length": 138,
+      "text": "　　　メモリーカード(PS2)が接続されていません。\nセーブデータを保存するには空き容量%dKBが必要です。\n　　　　　このままゲームを始めますか？\n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006184,
+      "source_byte_length": 173,
+      "text": "　　MEMORY CARD差込口1のメモリーカード(PS2)の\n　　　　　　　空き容量が足りません。\nセーブデータを保存するには空き容量%dKBが必要です。\n　　　　　このままゲームを始めますか？\n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006360,
+      "source_byte_length": 173,
+      "text": "　　MEMORY CARD差込口2のメモリーカード(PS2)の\n　　　　　　　空き容量が足りません。\nセーブデータを保存するには空き容量%dKBが必要です。\n　　　　　このままゲームを始めますか？\n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006536,
+      "source_byte_length": 183,
+      "text": "　MEMORY CARD差込口1及びMEMORY CARD差込口2の\n　　メモリーカード(PS2)の空き容量が足りません。\nセーブデータを保存するには空き容量%dKBが必要です。\n　　　　　このままゲームを始めますか？\n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006720,
+      "source_byte_length": 46,
+      "text": "　　　　メモリーカードが初期化されていません。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006872,
+      "source_byte_length": 44,
+      "text": "　　プログレッシブモードで起動しますか？　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006920,
+      "source_byte_length": 44,
+      "text": "このままプログレッシブモードで起動しますか？"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1006974,
+      "source_byte_length": 6,
+      "text": "@C劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007192,
+      "source_byte_length": 3,
+      "text": "推 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007608,
+      "source_byte_length": 3,
+      "text": "焙 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007612,
+      "source_byte_length": 3,
+      "text": "閼 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007696,
+      "source_byte_length": 3,
+      "text": "水 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007744,
+      "source_byte_length": 3,
+      "text": "煥 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007748,
+      "source_byte_length": 3,
+      "text": "閻 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007832,
+      "source_byte_length": 3,
+      "text": "炊 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007884,
+      "source_byte_length": 3,
+      "text": "煕 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1007888,
+      "source_byte_length": 3,
+      "text": "閹 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008044,
+      "source_byte_length": 3,
+      "text": "睡 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008084,
+      "source_byte_length": 3,
+      "text": "熈 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008088,
+      "source_byte_length": 3,
+      "text": "閾 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008172,
+      "source_byte_length": 3,
+      "text": "粋 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008212,
+      "source_byte_length": 3,
+      "text": "煦 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008216,
+      "source_byte_length": 3,
+      "text": "闊 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008352,
+      "source_byte_length": 3,
+      "text": "翠 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008392,
+      "source_byte_length": 3,
+      "text": "煢 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008396,
+      "source_byte_length": 3,
+      "text": "濶 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008480,
+      "source_byte_length": 3,
+      "text": "衰 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008520,
+      "source_byte_length": 3,
+      "text": "煌 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008524,
+      "source_byte_length": 3,
+      "text": "闃 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008608,
+      "source_byte_length": 3,
+      "text": "遂 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008648,
+      "source_byte_length": 3,
+      "text": "煖 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008652,
+      "source_byte_length": 3,
+      "text": "闍 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1008736,
+      "source_byte_length": 3,
+      "text": "酔 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009212,
+      "source_byte_length": 3,
+      "text": "煥 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009216,
+      "source_byte_length": 3,
+      "text": "閻 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009252,
+      "source_byte_length": 3,
+      "text": "煬 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009256,
+      "source_byte_length": 3,
+      "text": "闌 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009396,
+      "source_byte_length": 3,
+      "text": "粋 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009424,
+      "source_byte_length": 3,
+      "text": "錐 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009464,
+      "source_byte_length": 3,
+      "text": "熏 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009468,
+      "source_byte_length": 3,
+      "text": "闕 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009512,
+      "source_byte_length": 3,
+      "text": "睡 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009620,
+      "source_byte_length": 3,
+      "text": "焙 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009624,
+      "source_byte_length": 3,
+      "text": "閼 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009680,
+      "source_byte_length": 3,
+      "text": "錘 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009720,
+      "source_byte_length": 3,
+      "text": "燻 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009724,
+      "source_byte_length": 3,
+      "text": "闔 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009764,
+      "source_byte_length": 3,
+      "text": "水 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009896,
+      "source_byte_length": 3,
+      "text": "炊 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009928,
+      "source_byte_length": 3,
+      "text": "随 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1009968,
+      "source_byte_length": 3,
+      "text": "熄 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010000,
+      "source_byte_length": 3,
+      "text": "煦 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010004,
+      "source_byte_length": 3,
+      "text": "闊 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010024,
+      "source_byte_length": 3,
+      "text": "闖 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010088,
+      "source_byte_length": 3,
+      "text": "熈 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010092,
+      "source_byte_length": 3,
+      "text": "閾 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010224,
+      "source_byte_length": 3,
+      "text": "瑞 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010396,
+      "source_byte_length": 3,
+      "text": "煕 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010400,
+      "source_byte_length": 3,
+      "text": "閹 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010448,
+      "source_byte_length": 3,
+      "text": "熕 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010452,
+      "source_byte_length": 3,
+      "text": "關 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010548,
+      "source_byte_length": 3,
+      "text": "髄 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010588,
+      "source_byte_length": 3,
+      "text": "熨 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010592,
+      "source_byte_length": 3,
+      "text": "闡 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010676,
+      "source_byte_length": 3,
+      "text": "崇 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010716,
+      "source_byte_length": 3,
+      "text": "熬 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010720,
+      "source_byte_length": 3,
+      "text": "闥 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010804,
+      "source_byte_length": 3,
+      "text": "嵩 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010844,
+      "source_byte_length": 3,
+      "text": "燗 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010848,
+      "source_byte_length": 3,
+      "text": "闢 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010932,
+      "source_byte_length": 3,
+      "text": "数 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010972,
+      "source_byte_length": 3,
+      "text": "熹 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1010976,
+      "source_byte_length": 3,
+      "text": "阡 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011060,
+      "source_byte_length": 3,
+      "text": "枢 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011100,
+      "source_byte_length": 3,
+      "text": "熾 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011104,
+      "source_byte_length": 3,
+      "text": "阨 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011188,
+      "source_byte_length": 3,
+      "text": "趨 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011228,
+      "source_byte_length": 3,
+      "text": "燒 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011232,
+      "source_byte_length": 3,
+      "text": "阮 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011316,
+      "source_byte_length": 3,
+      "text": "雛 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011356,
+      "source_byte_length": 3,
+      "text": "燉 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011360,
+      "source_byte_length": 3,
+      "text": "阯 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011444,
+      "source_byte_length": 3,
+      "text": "据 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011484,
+      "source_byte_length": 3,
+      "text": "燔 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1011488,
+      "source_byte_length": 3,
+      "text": "陂 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1013526,
+      "source_byte_length": 2,
+      "text": "滷"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1013718,
+      "source_byte_length": 2,
+      "text": "狡"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1013838,
+      "source_byte_length": 2,
+      "text": "暗"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1013962,
+      "source_byte_length": 3,
+      "text": "伉 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1013986,
+      "source_byte_length": 3,
+      "text": "伉@"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014010,
+      "source_byte_length": 2,
+      "text": "伉"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014030,
+      "source_byte_length": 2,
+      "text": "暗"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014054,
+      "source_byte_length": 2,
+      "text": "佚"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014078,
+      "source_byte_length": 2,
+      "text": "佚"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014082,
+      "source_byte_length": 2,
+      "text": "伉"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014198,
+      "source_byte_length": 2,
+      "text": "姪"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014800,
+      "source_byte_length": 10,
+      "text": "母の思い出"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014816,
+      "source_byte_length": 16,
+      "text": "おでかけしたいよ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014840,
+      "source_byte_length": 20,
+      "text": "夢見がちなおとしごろ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014864,
+      "source_byte_length": 22,
+      "text": "赤い自転車に乗ってボク"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014888,
+      "source_byte_length": 10,
+      "text": "透明な記憶"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014904,
+      "source_byte_length": 14,
+      "text": "ひだまりの中で"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014920,
+      "source_byte_length": 8,
+      "text": "希望の道"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014936,
+      "source_byte_length": 12,
+      "text": "勇気を君に。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014952,
+      "source_byte_length": 18,
+      "text": "キミと過ごす日曜日"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014976,
+      "source_byte_length": 10,
+      "text": "荒野の三匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1014992,
+      "source_byte_length": 10,
+      "text": "ボクの宝物"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015008,
+      "source_byte_length": 16,
+      "text": "悲しみの向こう側"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015032,
+      "source_byte_length": 20,
+      "text": "草原をゆく風に乗って"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015056,
+      "source_byte_length": 18,
+      "text": "異世界へのいざない"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015080,
+      "source_byte_length": 14,
+      "text": "キミとの出会い"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015096,
+      "source_byte_length": 12,
+      "text": "遥かなる故郷"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015112,
+      "source_byte_length": 12,
+      "text": "妖精の舞う森"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015128,
+      "source_byte_length": 16,
+      "text": "それって、天然？"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015152,
+      "source_byte_length": 16,
+      "text": "うちよせる悲しみ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015176,
+      "source_byte_length": 22,
+      "text": "心、豊かでありますよう"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015200,
+      "source_byte_length": 16,
+      "text": "キミがくれたモノ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015224,
+      "source_byte_length": 14,
+      "text": "のんびり二人で"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015240,
+      "source_byte_length": 14,
+      "text": "またたく星々に"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015256,
+      "source_byte_length": 10,
+      "text": "丘を越えて"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015272,
+      "source_byte_length": 18,
+      "text": "この世界という景色"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015296,
+      "source_byte_length": 8,
+      "text": "導きし人"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015312,
+      "source_byte_length": 8,
+      "text": "とまどい"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015328,
+      "source_byte_length": 24,
+      "text": "ピクニックにでかけよう！"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015360,
+      "source_byte_length": 22,
+      "text": "せつなくやるせない想い"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015384,
+      "source_byte_length": 16,
+      "text": "必殺お仕置き人！"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015408,
+      "source_byte_length": 12,
+      "text": "来るべきモノ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015424,
+      "source_byte_length": 18,
+      "text": "おせっかいな女の子"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015448,
+      "source_byte_length": 16,
+      "text": "せっかちな男の子"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015472,
+      "source_byte_length": 20,
+      "text": "静かな、静かすぎる夜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015496,
+      "source_byte_length": 20,
+      "text": "普通であることの幸せ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015520,
+      "source_byte_length": 8,
+      "text": "いにしへ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015536,
+      "source_byte_length": 20,
+      "text": "ダンスインざパニック"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015560,
+      "source_byte_length": 10,
+      "text": "眠れない夜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015576,
+      "source_byte_length": 12,
+      "text": "センチな季節"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015592,
+      "source_byte_length": 14,
+      "text": "アナタへの想い"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015608,
+      "source_byte_length": 22,
+      "text": "がんばらＫＮＩＧＨＴ！"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015632,
+      "source_byte_length": 12,
+      "text": "暗闇に潜む影"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015648,
+      "source_byte_length": 16,
+      "text": "追う者追われる者"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015672,
+      "source_byte_length": 24,
+      "text": "神への願い、悪魔への祈り"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015704,
+      "source_byte_length": 20,
+      "text": "うちふるえよ、わが心"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015728,
+      "source_byte_length": 12,
+      "text": "届かない想い"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015744,
+      "source_byte_length": 10,
+      "text": "月のない夜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015760,
+      "source_byte_length": 18,
+      "text": "闇より生まれしモノ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015784,
+      "source_byte_length": 10,
+      "text": "絶望の淵で"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015800,
+      "source_byte_length": 24,
+      "text": "殺戮と破壊、そして・・・"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015832,
+      "source_byte_length": 24,
+      "text": "アナタと出会えてよかった"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015864,
+      "source_byte_length": 24,
+      "text": "過ぎ去りしアナタとの日々"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015896,
+      "source_byte_length": 20,
+      "text": "キミとつないだ手と手"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015920,
+      "source_byte_length": 18,
+      "text": "サヨナラは言わない"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1015944,
+      "source_byte_length": 24,
+      "text": "にょ～にょにょにょにょ♪"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1016784,
+      "source_byte_length": 2,
+      "text": "漾"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1016788,
+      "source_byte_length": 2,
+      "text": "濮"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1016792,
+      "source_byte_length": 2,
+      "text": "烙"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1016796,
+      "source_byte_length": 2,
+      "text": "燿"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1016800,
+      "source_byte_length": 2,
+      "text": "狢"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1016804,
+      "source_byte_length": 2,
+      "text": "珥"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018066,
+      "source_byte_length": 6,
+      "text": "ﾂ劔)ﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018074,
+      "source_byte_length": 6,
+      "text": "0D劔)ﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018098,
+      "source_byte_length": 6,
+      "text": "ﾂ33蕕"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018106,
+      "source_byte_length": 6,
+      "text": "0D33蕕"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018130,
+      "source_byte_length": 6,
+      "text": "ﾂ劔)ﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018140,
+      "source_byte_length": 4,
+      "text": "劔)ﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018162,
+      "source_byte_length": 6,
+      "text": " D劔)ﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1018170,
+      "source_byte_length": 6,
+      "text": "0D劔)ﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019096,
+      "source_byte_length": 3,
+      "text": "菅 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019136,
+      "source_byte_length": 3,
+      "text": "燬 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019140,
+      "source_byte_length": 3,
+      "text": "陋 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019264,
+      "source_byte_length": 3,
+      "text": "頗 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019312,
+      "source_byte_length": 3,
+      "text": "燧 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019316,
+      "source_byte_length": 3,
+      "text": "陷 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019468,
+      "source_byte_length": 3,
+      "text": "雀 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019880,
+      "source_byte_length": 3,
+      "text": "燵 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019884,
+      "source_byte_length": 3,
+      "text": "陜 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1019976,
+      "source_byte_length": 3,
+      "text": "裾 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020016,
+      "source_byte_length": 3,
+      "text": "燼 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020024,
+      "source_byte_length": 3,
+      "text": "陞 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020108,
+      "source_byte_length": 3,
+      "text": "亜 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020112,
+      "source_byte_length": 3,
+      "text": "澄 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020116,
+      "source_byte_length": 3,
+      "text": "弌 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020180,
+      "source_byte_length": 3,
+      "text": "燹 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020184,
+      "source_byte_length": 3,
+      "text": "陝 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020478,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020498,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020518,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020538,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020558,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020578,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020598,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020618,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020878,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020958,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020978,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1020998,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021018,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021038,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021058,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021078,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021098,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021118,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021138,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021158,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021178,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021198,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021218,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021238,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021438,
+      "source_byte_length": 6,
+      "text": "pC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021554,
+      "source_byte_length": 2,
+      "text": "滷"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021562,
+      "source_byte_length": 2,
+      "text": "靴"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021570,
+      "source_byte_length": 2,
+      "text": "滷"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021578,
+      "source_byte_length": 2,
+      "text": "靴"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021717,
+      "source_byte_length": 7,
+      "text": "燭劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021737,
+      "source_byte_length": 7,
+      "text": "燭劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021758,
+      "source_byte_length": 6,
+      "text": "#C劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021778,
+      "source_byte_length": 6,
+      "text": "#C劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021798,
+      "source_byte_length": 6,
+      "text": "#C劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021818,
+      "source_byte_length": 6,
+      "text": "劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021838,
+      "source_byte_length": 6,
+      "text": "\"C劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021858,
+      "source_byte_length": 6,
+      "text": "燭劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021877,
+      "source_byte_length": 7,
+      "text": "ｽC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021938,
+      "source_byte_length": 6,
+      "text": "擦ﾌﾌﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1021984,
+      "source_byte_length": 128,
+      "text": "　MEMORY CARD差込口%dのメモリーカード　　 \n　(PS2)に、システムファイルをセーブして　 \n　　　　　　よろしいですか？ 　　　 　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1022120,
+      "source_byte_length": 128,
+      "text": "　　　　　　　セーブ中です。　　　　　　　\n　　　メモリーカード(PS2)を抜いたり、　　 \n 　　　　電源を切らないで下さい。　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1022256,
+      "source_byte_length": 42,
+      "text": "　　　　セーブができませんでした。　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1022512,
+      "source_byte_length": 128,
+      "text": "　MEMORY CARD差込口%dのメモリーカード　　 \n (PS2)からシステムファイルをロードします。\n 　　　　　よろしいですか？　　　　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1022648,
+      "source_byte_length": 127,
+      "text": "　　　　　　　ロード中です。　　　　　　　\n　　　メモリーカード(PS2)を抜いたり、　　\n 　　　　電源を切らないで下さい。　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1022776,
+      "source_byte_length": 42,
+      "text": "　　　　ロードができませんでした。　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1022824,
+      "source_byte_length": 171,
+      "text": "　MEMORY CARD差込口%dのメモリーカード　　 \n (PS2)のセーブデータが破損しています　　　\n 　　　　　　　このデータは　　　　　　　 \n　　正常にロードすることができません。　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1023216,
+      "source_byte_length": 85,
+      "text": " 　　ファイルがすでに存在しています。 　　\n 　　　上書きしてよろしいですか？ 　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1023520,
+      "source_byte_length": 128,
+      "text": "　MEMORY CARD差込口%dのメモリーカード　　 \n (PS2)からセーブデータをロードします。　　\n 　　　　　よろしいですか？　　　　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1023872,
+      "source_byte_length": 171,
+      "text": "　MEMORY CARD差込口%dのメモリーカード　　 \n (PS2)のセーブデータが破損しています。　　\n 　データを破棄し、新規データとして 　　　\n 　　　　　セーブを行いますか？　　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024256,
+      "source_byte_length": 159,
+      "text": "　　メモリーカード(PS2)がフォーマット　　 \n　　　　　　されていません。　\n　データをセーブするには%dKB必要です。　　\n　　　　セーブ処理を終了しますか？　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024416,
+      "source_byte_length": 128,
+      "text": "　　　メモリーカード(PS2)がありません。　 \n　データをセーブするには%dKB必要です。　　\n　　　　セーブ処理を終了しますか？　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024552,
+      "source_byte_length": 128,
+      "text": " メモリーカード(PS2)の空き容量不足です。　\n　データをセーブするには%dKB必要です。　　\n　　　　セーブ処理を終了しますか？　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024768,
+      "source_byte_length": 16,
+      "text": "セーブデータあり"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024792,
+      "source_byte_length": 41,
+      "text": "メモリーカード(PS2)を差し込んでください。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024864,
+      "source_byte_length": 4,
+      "text": "劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1024904,
+      "source_byte_length": 18,
+      "text": "%02d年%02d月%02d日"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025088,
+      "source_byte_length": 128,
+      "text": "　　　　　フォーマット中です。　　　　　　\n　　　メモリーカード(PS2)を抜いたり、　　 \n 　　　　電源を切らないで下さい。　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025224,
+      "source_byte_length": 43,
+      "text": "　　　フォーマットできませんでした。　　　\n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025640,
+      "source_byte_length": 4,
+      "text": "劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025680,
+      "source_byte_length": 28,
+      "text": "オートロードを終了しました。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025778,
+      "source_byte_length": 2,
+      "text": "瓩"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025802,
+      "source_byte_length": 2,
+      "text": "佞"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025810,
+      "source_byte_length": 2,
+      "text": "佞"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025818,
+      "source_byte_length": 2,
+      "text": "瓩"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025826,
+      "source_byte_length": 2,
+      "text": "瓩"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025834,
+      "source_byte_length": 2,
+      "text": "滷"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1025973,
+      "source_byte_length": 3,
+      "text": "擦"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026078,
+      "source_byte_length": 6,
+      "text": "ZC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026098,
+      "source_byte_length": 6,
+      "text": "ZC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026117,
+      "source_byte_length": 7,
+      "text": "④劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026133,
+      "source_byte_length": 3,
+      "text": "擦"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026137,
+      "source_byte_length": 7,
+      "text": "④劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026157,
+      "source_byte_length": 7,
+      "text": "④劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026177,
+      "source_byte_length": 7,
+      "text": "④劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026197,
+      "source_byte_length": 7,
+      "text": "④劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026217,
+      "source_byte_length": 7,
+      "text": "④劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026274,
+      "source_byte_length": 10,
+      "text": "沓ffﾀB劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026314,
+      "source_byte_length": 2,
+      "text": "沓"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026334,
+      "source_byte_length": 2,
+      "text": "沓"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026337,
+      "source_byte_length": 7,
+      "text": "ｴC劔ﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026358,
+      "source_byte_length": 6,
+      "text": "錚ﾌﾌﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026398,
+      "source_byte_length": 6,
+      "text": "辰ﾌﾌﾇﾂ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026558,
+      "source_byte_length": 2,
+      "text": "靴"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026566,
+      "source_byte_length": 2,
+      "text": "靴"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026574,
+      "source_byte_length": 2,
+      "text": "呂"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026614,
+      "source_byte_length": 166,
+      "text": "ﾄC　MEMORY CARD差込口%dのメモリーカード　　 \n (PS2)には、すでにセーブデータが存在して　\n います。セーブを行うとシステムファイルが \n 更新されますが、よろしいですか？ \n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026784,
+      "source_byte_length": 42,
+      "text": "　　　　　セーブが終了しました。　　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026832,
+      "source_byte_length": 128,
+      "text": "　　　　MEMORY CARD差込口%dに　　　　　　 \n　メモリーカード(PS2)が差されていません。 \n　データをセーブするには%dKB必要です。　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1026968,
+      "source_byte_length": 128,
+      "text": "　　　　MEMORY CARD差込口%dの　　　　　　 \n　メモリーカード(PS2)は空き容量不足です。 \n　データをセーブするには%dKB必要です。　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027104,
+      "source_byte_length": 42,
+      "text": "　　　　　ロードが終了しました。　　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027152,
+      "source_byte_length": 85,
+      "text": "　　　　ポートＡの拡張ソケット１に　　　　\n　　　　メモリーカードがありません　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027240,
+      "source_byte_length": 128,
+      "text": "　　　　MEMORY CARD差込口%dの　　　　　　 \n　メモリーカード(PS2)には、このゲームの　 \n 　　　セーブデータがありません。　　　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027376,
+      "source_byte_length": 129,
+      "text": "　　　　MEMORY CARD差込口%dの　　　　　　 \n　メモリーカード(PS2)は、フォーマット　 　\n　　　　　　されていません。　　　　　　  \n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027512,
+      "source_byte_length": 172,
+      "text": "　　　　MEMORY CARD差込口%dの　　　　　　 \n　メモリーカード(PS2)は、フォーマット　 　\n　　　　　　されていません。　　　　　　  \n　　フォーマットしてよろしいですか？　　　\n"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027688,
+      "source_byte_length": 171,
+      "text": "　MEMORY CARD差込口%dのメモリーカード　　 \n　(PS2)に、新規にデータをセーブします。　 \n セーブデータを作成しシステムファイルを 　\n 　　セーブしますが、よろしいですか？　　 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027864,
+      "source_byte_length": 71,
+      "text": "　　セーブをせずにゲームを続けますが　　　\n　　　　　　よろしいですか？"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027936,
+      "source_byte_length": 49,
+      "text": "ロードするメモリーカード(PS2)を選択してください。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1027992,
+      "source_byte_length": 49,
+      "text": "セーブするメモリーカード(PS2)を選択してください。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1029023,
+      "source_byte_length": 13,
+      "text": "CG矮ﾀ33s?\\渉>"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1029154,
+      "source_byte_length": 2,
+      "text": "沓"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1029170,
+      "source_byte_length": 14,
+      "text": "?渉5?劔Y?ffﾆﾀ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030224,
+      "source_byte_length": 8,
+      "text": "たかあき"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030240,
+      "source_byte_length": 10,
+      "text": "しゃちょう"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030452,
+      "source_byte_length": 3,
+      "text": "阿 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030456,
+      "source_byte_length": 3,
+      "text": "世 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030460,
+      "source_byte_length": 3,
+      "text": "个 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030496,
+      "source_byte_length": 3,
+      "text": "爐 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030500,
+      "source_byte_length": 3,
+      "text": "陲 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030596,
+      "source_byte_length": 3,
+      "text": "哀 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030600,
+      "source_byte_length": 3,
+      "text": "瀬 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030604,
+      "source_byte_length": 3,
+      "text": "丱 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030640,
+      "source_byte_length": 3,
+      "text": "爛 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030644,
+      "source_byte_length": 3,
+      "text": "陬 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030724,
+      "source_byte_length": 3,
+      "text": "愛 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030736,
+      "source_byte_length": 3,
+      "text": "畝 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030740,
+      "source_byte_length": 3,
+      "text": "丶 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030776,
+      "source_byte_length": 3,
+      "text": "爨 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030780,
+      "source_byte_length": 3,
+      "text": "隍 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030860,
+      "source_byte_length": 3,
+      "text": "挨 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030864,
+      "source_byte_length": 3,
+      "text": "是 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030868,
+      "source_byte_length": 3,
+      "text": "丼 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030912,
+      "source_byte_length": 3,
+      "text": "爭 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1030916,
+      "source_byte_length": 3,
+      "text": "隘 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031004,
+      "source_byte_length": 3,
+      "text": "姶 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031008,
+      "source_byte_length": 3,
+      "text": "凄 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031012,
+      "source_byte_length": 3,
+      "text": "丿 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031048,
+      "source_byte_length": 3,
+      "text": "爬 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031052,
+      "source_byte_length": 3,
+      "text": "隕 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031248,
+      "source_byte_length": 85,
+      "text": " 　　　『苗字』『名前』『あだな』は　　　 \n１文字以上、５文字以内で登録してください。"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031376,
+      "source_byte_length": 85,
+      "text": " 　　　　デフォルト名に置き換えて　　　　 \n　　　　続行してもよろしいですか？　　　　"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031742,
+      "source_byte_length": 10,
+      "text": "?渉5?｣p}?"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031910,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031918,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031926,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031934,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031942,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031950,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031958,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1031966,
+      "source_byte_length": 2,
+      "text": "匹"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1032010,
+      "source_byte_length": 14,
+      "text": "?fff?痙T?\\州?"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1032072,
+      "source_byte_length": 3,
+      "text": "爼 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1032080,
+      "source_byte_length": 3,
+      "text": "隱 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1032240,
+      "source_byte_length": 3,
+      "text": "悪 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1032248,
+      "source_byte_length": 3,
+      "text": "性 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1032256,
+      "source_byte_length": 3,
+      "text": "亅 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1033421,
+      "source_byte_length": 3,
+      "text": "瀰@"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1033429,
+      "source_byte_length": 3,
+      "text": "瀰@"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1033437,
+      "source_byte_length": 3,
+      "text": "瀰@"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1036096,
+      "source_byte_length": 42,
+      "text": "デ・ジ・キャラットファンタジーエクセレント"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1068654,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1068662,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069138,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069142,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069146,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069150,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069154,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069158,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069162,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069166,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069170,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069174,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069178,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069182,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069186,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069190,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069194,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069198,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069266,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069270,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069274,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069278,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069282,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069286,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069290,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069294,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069298,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069302,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069306,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069310,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069314,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069318,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069322,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069326,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069742,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069750,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069806,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069814,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069870,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069878,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069934,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069942,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1069998,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070006,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070062,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070070,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070126,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070134,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070190,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070198,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070254,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070262,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070318,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070326,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070382,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070390,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070446,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070454,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070510,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070518,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070574,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070582,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070638,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070646,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070702,
+      "source_byte_length": 2,
+      "text": "潯"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1070710,
+      "source_byte_length": 2,
+      "text": "猜"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1077176,
+      "source_byte_length": 2,
+      "text": "孛"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1077702,
+      "source_byte_length": 4,
+      "text": "@C孛"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078112,
+      "source_byte_length": 3,
+      "text": "<剳"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078116,
+      "source_byte_length": 3,
+      "text": "A燭"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078192,
+      "source_byte_length": 3,
+      "text": "懼9"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078240,
+      "source_byte_length": 3,
+      "text": "枅?"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078244,
+      "source_byte_length": 3,
+      "text": "-鸚"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078252,
+      "source_byte_length": 3,
+      "text": "褄ﾇ"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078284,
+      "source_byte_length": 3,
+      "text": "{鰀"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078320,
+      "source_byte_length": 3,
+      "text": "后h"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078344,
+      "source_byte_length": 3,
+      "text": "{秡"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1078348,
+      "source_byte_length": 3,
+      "text": "k限"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079497,
+      "source_byte_length": 3,
+      "text": "ﾋ法"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079505,
+      "source_byte_length": 3,
+      "text": "S涖"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079529,
+      "source_byte_length": 3,
+      "text": ":晦"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079533,
+      "source_byte_length": 3,
+      "text": "ﾋ泡"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079541,
+      "source_byte_length": 3,
+      "text": "撝A"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079557,
+      "source_byte_length": 3,
+      "text": "1磚"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079561,
+      "source_byte_length": 3,
+      "text": "ﾂ猤"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079565,
+      "source_byte_length": 3,
+      "text": "S涬"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1079835,
+      "source_byte_length": 5,
+      "text": "\"ゅ6"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1083816,
+      "source_byte_length": 3,
+      "text": "炸 "
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1083933,
+      "source_byte_length": 3,
+      "text": "@宗"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1083941,
+      "source_byte_length": 3,
+      "text": "暗@"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1083995,
+      "source_byte_length": 5,
+      "text": "钁H7B"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1084010,
+      "source_byte_length": 6,
+      "text": "@蝨0｢B"
+    },
+    {
+      "section": ".rodata",
+      "file_offset": 1084600,
+      "source_byte_length": 16,
+      "text": "囮劔劔ｹ?囮劔劔ｹ?"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1086480,
+      "source_byte_length": 4,
+      "text": "はい"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1086488,
+      "source_byte_length": 6,
+      "text": "いいえ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1091952,
+      "source_byte_length": 4,
+      "text": "慟哭"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1091960,
+      "source_byte_length": 4,
+      "text": "発動"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1091968,
+      "source_byte_length": 6,
+      "text": "雛飾り"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094088,
+      "source_byte_length": 6,
+      "text": "きだに"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094128,
+      "source_byte_length": 2,
+      "text": "あ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094136,
+      "source_byte_length": 2,
+      "text": "い"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094144,
+      "source_byte_length": 2,
+      "text": "う"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094152,
+      "source_byte_length": 2,
+      "text": "え"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094160,
+      "source_byte_length": 2,
+      "text": "お"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094168,
+      "source_byte_length": 2,
+      "text": "か"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094176,
+      "source_byte_length": 2,
+      "text": "き"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094184,
+      "source_byte_length": 2,
+      "text": "く"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094192,
+      "source_byte_length": 2,
+      "text": "け"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094200,
+      "source_byte_length": 2,
+      "text": "こ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094208,
+      "source_byte_length": 2,
+      "text": "さ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094216,
+      "source_byte_length": 2,
+      "text": "し"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094224,
+      "source_byte_length": 2,
+      "text": "す"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094232,
+      "source_byte_length": 2,
+      "text": "せ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094240,
+      "source_byte_length": 2,
+      "text": "そ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094248,
+      "source_byte_length": 2,
+      "text": "た"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094256,
+      "source_byte_length": 2,
+      "text": "ち"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094264,
+      "source_byte_length": 2,
+      "text": "つ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094272,
+      "source_byte_length": 2,
+      "text": "て"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094280,
+      "source_byte_length": 2,
+      "text": "と"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094288,
+      "source_byte_length": 2,
+      "text": "な"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094296,
+      "source_byte_length": 2,
+      "text": "に"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094304,
+      "source_byte_length": 2,
+      "text": "ぬ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094312,
+      "source_byte_length": 2,
+      "text": "ね"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094320,
+      "source_byte_length": 2,
+      "text": "の"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094328,
+      "source_byte_length": 2,
+      "text": "は"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094336,
+      "source_byte_length": 2,
+      "text": "ひ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094344,
+      "source_byte_length": 2,
+      "text": "ふ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094352,
+      "source_byte_length": 2,
+      "text": "へ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094360,
+      "source_byte_length": 2,
+      "text": "ほ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094368,
+      "source_byte_length": 2,
+      "text": "ま"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094376,
+      "source_byte_length": 2,
+      "text": "み"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094384,
+      "source_byte_length": 2,
+      "text": "む"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094392,
+      "source_byte_length": 2,
+      "text": "め"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094400,
+      "source_byte_length": 2,
+      "text": "も"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094408,
+      "source_byte_length": 2,
+      "text": "や"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094416,
+      "source_byte_length": 2,
+      "text": "ゆ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094424,
+      "source_byte_length": 2,
+      "text": "よ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094432,
+      "source_byte_length": 2,
+      "text": "ら"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094440,
+      "source_byte_length": 2,
+      "text": "り"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094448,
+      "source_byte_length": 2,
+      "text": "る"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094456,
+      "source_byte_length": 2,
+      "text": "れ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094464,
+      "source_byte_length": 2,
+      "text": "ろ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094472,
+      "source_byte_length": 2,
+      "text": "わ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094480,
+      "source_byte_length": 2,
+      "text": "を"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094488,
+      "source_byte_length": 2,
+      "text": "ん"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094496,
+      "source_byte_length": 2,
+      "text": "ぁ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094504,
+      "source_byte_length": 2,
+      "text": "ぃ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094512,
+      "source_byte_length": 2,
+      "text": "ぅ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094520,
+      "source_byte_length": 2,
+      "text": "ぇ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094528,
+      "source_byte_length": 2,
+      "text": "ぉ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094536,
+      "source_byte_length": 2,
+      "text": "が"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094544,
+      "source_byte_length": 2,
+      "text": "ぎ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094552,
+      "source_byte_length": 2,
+      "text": "ぐ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094560,
+      "source_byte_length": 2,
+      "text": "げ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094568,
+      "source_byte_length": 2,
+      "text": "ご"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094576,
+      "source_byte_length": 2,
+      "text": "ざ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094584,
+      "source_byte_length": 2,
+      "text": "じ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094592,
+      "source_byte_length": 2,
+      "text": "ず"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094600,
+      "source_byte_length": 2,
+      "text": "ぜ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094608,
+      "source_byte_length": 2,
+      "text": "ぞ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094616,
+      "source_byte_length": 2,
+      "text": "だ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094624,
+      "source_byte_length": 2,
+      "text": "ぢ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094632,
+      "source_byte_length": 2,
+      "text": "づ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094640,
+      "source_byte_length": 2,
+      "text": "で"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094648,
+      "source_byte_length": 2,
+      "text": "ど"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094656,
+      "source_byte_length": 2,
+      "text": "ば"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094664,
+      "source_byte_length": 2,
+      "text": "び"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094672,
+      "source_byte_length": 2,
+      "text": "ぶ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094680,
+      "source_byte_length": 2,
+      "text": "べ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094688,
+      "source_byte_length": 2,
+      "text": "ぼ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094696,
+      "source_byte_length": 2,
+      "text": "ぱ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094704,
+      "source_byte_length": 2,
+      "text": "ぴ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094712,
+      "source_byte_length": 2,
+      "text": "ぷ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094720,
+      "source_byte_length": 2,
+      "text": "ぺ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094728,
+      "source_byte_length": 2,
+      "text": "ぽ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094736,
+      "source_byte_length": 2,
+      "text": "っ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094744,
+      "source_byte_length": 2,
+      "text": "ゃ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094752,
+      "source_byte_length": 2,
+      "text": "ゅ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094760,
+      "source_byte_length": 2,
+      "text": "ょ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094768,
+      "source_byte_length": 2,
+      "text": "ゎ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094800,
+      "source_byte_length": 2,
+      "text": "ア"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094808,
+      "source_byte_length": 2,
+      "text": "イ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094816,
+      "source_byte_length": 2,
+      "text": "ウ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094824,
+      "source_byte_length": 2,
+      "text": "エ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094832,
+      "source_byte_length": 2,
+      "text": "オ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094840,
+      "source_byte_length": 2,
+      "text": "カ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094848,
+      "source_byte_length": 2,
+      "text": "キ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094856,
+      "source_byte_length": 2,
+      "text": "ク"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094864,
+      "source_byte_length": 2,
+      "text": "ケ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094872,
+      "source_byte_length": 2,
+      "text": "コ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094880,
+      "source_byte_length": 2,
+      "text": "サ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094888,
+      "source_byte_length": 2,
+      "text": "シ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094896,
+      "source_byte_length": 2,
+      "text": "ス"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094904,
+      "source_byte_length": 2,
+      "text": "セ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094912,
+      "source_byte_length": 2,
+      "text": "ソ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094920,
+      "source_byte_length": 2,
+      "text": "タ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094928,
+      "source_byte_length": 2,
+      "text": "チ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094936,
+      "source_byte_length": 2,
+      "text": "ツ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094944,
+      "source_byte_length": 2,
+      "text": "テ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094952,
+      "source_byte_length": 2,
+      "text": "ト"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094960,
+      "source_byte_length": 2,
+      "text": "ナ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094968,
+      "source_byte_length": 2,
+      "text": "ニ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094976,
+      "source_byte_length": 2,
+      "text": "ヌ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094984,
+      "source_byte_length": 2,
+      "text": "ネ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1094992,
+      "source_byte_length": 2,
+      "text": "ノ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095000,
+      "source_byte_length": 2,
+      "text": "ハ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095008,
+      "source_byte_length": 2,
+      "text": "ヒ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095016,
+      "source_byte_length": 2,
+      "text": "フ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095024,
+      "source_byte_length": 2,
+      "text": "ヘ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095032,
+      "source_byte_length": 2,
+      "text": "ホ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095040,
+      "source_byte_length": 2,
+      "text": "マ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095048,
+      "source_byte_length": 2,
+      "text": "ミ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095056,
+      "source_byte_length": 2,
+      "text": "ム"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095064,
+      "source_byte_length": 2,
+      "text": "メ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095072,
+      "source_byte_length": 2,
+      "text": "モ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095080,
+      "source_byte_length": 2,
+      "text": "ヤ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095088,
+      "source_byte_length": 2,
+      "text": "ユ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095096,
+      "source_byte_length": 2,
+      "text": "ヨ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095104,
+      "source_byte_length": 2,
+      "text": "ラ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095112,
+      "source_byte_length": 2,
+      "text": "リ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095120,
+      "source_byte_length": 2,
+      "text": "ル"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095128,
+      "source_byte_length": 2,
+      "text": "レ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095136,
+      "source_byte_length": 2,
+      "text": "ロ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095144,
+      "source_byte_length": 2,
+      "text": "ワ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095152,
+      "source_byte_length": 2,
+      "text": "ヲ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095160,
+      "source_byte_length": 2,
+      "text": "ン"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095168,
+      "source_byte_length": 2,
+      "text": "ァ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095176,
+      "source_byte_length": 2,
+      "text": "ィ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095184,
+      "source_byte_length": 2,
+      "text": "ゥ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095192,
+      "source_byte_length": 2,
+      "text": "ェ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095200,
+      "source_byte_length": 2,
+      "text": "ォ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095208,
+      "source_byte_length": 2,
+      "text": "ガ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095216,
+      "source_byte_length": 2,
+      "text": "ギ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095224,
+      "source_byte_length": 2,
+      "text": "グ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095232,
+      "source_byte_length": 2,
+      "text": "ゲ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095240,
+      "source_byte_length": 2,
+      "text": "ゴ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095248,
+      "source_byte_length": 2,
+      "text": "ザ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095256,
+      "source_byte_length": 2,
+      "text": "ジ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095264,
+      "source_byte_length": 2,
+      "text": "ズ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095272,
+      "source_byte_length": 2,
+      "text": "ゼ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095280,
+      "source_byte_length": 2,
+      "text": "ゾ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095288,
+      "source_byte_length": 2,
+      "text": "ダ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095296,
+      "source_byte_length": 2,
+      "text": "ヂ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095304,
+      "source_byte_length": 2,
+      "text": "ヅ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095312,
+      "source_byte_length": 2,
+      "text": "デ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095320,
+      "source_byte_length": 2,
+      "text": "ド"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095328,
+      "source_byte_length": 2,
+      "text": "バ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095336,
+      "source_byte_length": 2,
+      "text": "ビ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095344,
+      "source_byte_length": 2,
+      "text": "ブ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095352,
+      "source_byte_length": 2,
+      "text": "ベ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095360,
+      "source_byte_length": 2,
+      "text": "ボ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095368,
+      "source_byte_length": 2,
+      "text": "パ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095376,
+      "source_byte_length": 2,
+      "text": "ピ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095384,
+      "source_byte_length": 2,
+      "text": "プ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095392,
+      "source_byte_length": 2,
+      "text": "ペ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095400,
+      "source_byte_length": 2,
+      "text": "ポ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095408,
+      "source_byte_length": 2,
+      "text": "ッ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095416,
+      "source_byte_length": 2,
+      "text": "ャ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095424,
+      "source_byte_length": 2,
+      "text": "ュ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095432,
+      "source_byte_length": 2,
+      "text": "ョ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095440,
+      "source_byte_length": 2,
+      "text": "ヮ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095448,
+      "source_byte_length": 2,
+      "text": "ヴ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095456,
+      "source_byte_length": 2,
+      "text": "ヵ"
+    },
+    {
+      "section": ".sdata",
+      "file_offset": 1095464,
+      "source_byte_length": 2,
+      "text": "ヶ"
+    }
+  ]
+}

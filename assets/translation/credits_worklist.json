@@ -1,0 +1,1250 @@
+{
+  "format": "digicarr-fantasy-excellent-credits-worklist-v1",
+  "local_ai_vlm_ocr_used": false,
+  "strategy": "Translate staff00 once; staff01 reuses ordered identical lines and translates only its nonblank differences.",
+  "summary": {
+    "staff00_total_lines": 113,
+    "staff01_total_lines": 125,
+    "shared_ordered_lines_including_blanks": 112,
+    "staff00_nonblank_work_lines": 93,
+    "staff01_shared_nonblank_aliases": 92,
+    "staff01_extra_nonblank_lines": 3,
+    "staff_test_excluded": true
+  },
+  "primary_staff00": [
+    {
+      "id": "staff00/000",
+      "source_file": "ending_staff00.txt",
+      "line_index": 0,
+      "source_ja": "企画・製作　　　　　　　　株式会社ブロッコリー",
+      "needs_translation": true,
+      "target_ko": "기획・제작　　　　　　　　주식회사 브로콜리",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/001",
+      "source_file": "ending_staff00.txt",
+      "line_index": 1,
+      "source_ja": "原作・原画・キャラクターデザイン",
+      "needs_translation": true,
+      "target_ko": "원작・원화・캐릭터 디자인",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/002",
+      "source_file": "ending_staff00.txt",
+      "line_index": 2,
+      "source_ja": "　　　　　　　　　　　　　コゲどんぼ",
+      "needs_translation": true,
+      "target_ko": "코게돈보",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/003",
+      "source_file": "ending_staff00.txt",
+      "line_index": 3,
+      "source_ja": "シナリオ監修　　　　　　　あかほりさとる",
+      "needs_translation": true,
+      "target_ko": "시나리오 감수　　　　　　　아카호리 사토루",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/004",
+      "source_file": "ending_staff00.txt",
+      "line_index": 4,
+      "source_ja": "企画協力　　　　　　　　　甑　ひとみ",
+      "needs_translation": true,
+      "target_ko": "기획 협력　　　　　　　　　코시 히토미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/006",
+      "source_file": "ending_staff00.txt",
+      "line_index": 6,
+      "source_ja": "ディレクション　　　　　　(有)戦船",
+      "needs_translation": true,
+      "target_ko": "디렉션　　　　　　　　　(유)전선",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/007",
+      "source_file": "ending_staff00.txt",
+      "line_index": 7,
+      "source_ja": "プログラム制作　　　　　　(有)津田沼広房",
+      "needs_translation": true,
+      "target_ko": "프로그램 제작　　　　　　(유)츠다누마 히로후사",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/008",
+      "source_file": "ending_staff00.txt",
+      "line_index": 8,
+      "source_ja": "ディレクター　　　　　　　赤司俊雄",
+      "needs_translation": true,
+      "target_ko": "디렉터　　　　　　　아카시 토시오",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/009",
+      "source_file": "ending_staff00.txt",
+      "line_index": 9,
+      "source_ja": "　　　　　　　　　　　　　栗原宏明",
+      "needs_translation": true,
+      "target_ko": "쿠리하라 히로아키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/010",
+      "source_file": "ending_staff00.txt",
+      "line_index": 10,
+      "source_ja": "プログラマー　　　　　　　土山茂三",
+      "needs_translation": true,
+      "target_ko": "프로그래머　　　　　　　츠치야 시게미츠",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/011",
+      "source_file": "ending_staff00.txt",
+      "line_index": 11,
+      "source_ja": "シナリオ　　　　　　　　　はせがわみやび",
+      "needs_translation": true,
+      "target_ko": "시나리오　　　　　　　　　하세가와 미야비",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/012",
+      "source_file": "ending_staff00.txt",
+      "line_index": 12,
+      "source_ja": "　　　　　　　　　　　　　えもとかずあき",
+      "needs_translation": true,
+      "target_ko": "에모토 카즈아키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/013",
+      "source_file": "ending_staff00.txt",
+      "line_index": 13,
+      "source_ja": "　　　　　　　　　　　　　篠藤晶子",
+      "needs_translation": true,
+      "target_ko": "시노토 아키코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/014",
+      "source_file": "ending_staff00.txt",
+      "line_index": 14,
+      "source_ja": "　　　　　　　　　　　　　土井佐智子",
+      "needs_translation": true,
+      "target_ko": "도이 사치코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/015",
+      "source_file": "ending_staff00.txt",
+      "line_index": 15,
+      "source_ja": "スクリプト　　　　　　　　奥村卓也(月光)",
+      "needs_translation": true,
+      "target_ko": "스크립트　　　　　　　　오쿠무라 타쿠야(겟코)",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/016",
+      "source_file": "ending_staff00.txt",
+      "line_index": 16,
+      "source_ja": "　　　　　　　　　　　　　矢崎他聞(月光)",
+      "needs_translation": true,
+      "target_ko": "야자키 타몬(겟코)",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/017",
+      "source_file": "ending_staff00.txt",
+      "line_index": 17,
+      "source_ja": "グラフィック　　　　　　　Ｓｔｕｎｎｅｒ",
+      "needs_translation": true,
+      "target_ko": "그래픽　　　　　　　Ｓｔｕｎｎｅｒ",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/018",
+      "source_file": "ending_staff00.txt",
+      "line_index": 18,
+      "source_ja": "　　　　　　　　　　　　　(有)戦船",
+      "needs_translation": true,
+      "target_ko": "(유)전선",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/019",
+      "source_file": "ending_staff00.txt",
+      "line_index": 19,
+      "source_ja": "背景美術　　　　　　　　　二嶋隆文(スタジオワイエス)",
+      "needs_translation": true,
+      "target_ko": "배경 미술　　　　　　　　　니시마 타카후미(스튜디오 와이즈)",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/021",
+      "source_file": "ending_staff00.txt",
+      "line_index": 21,
+      "source_ja": "アニメーション　　　　　　マッドハウス",
+      "needs_translation": true,
+      "target_ko": "애니메이션　　　　　　매드하우스",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/022",
+      "source_file": "ending_staff00.txt",
+      "line_index": 22,
+      "source_ja": "プロデューサー　　　　　　諸澤昌男",
+      "needs_translation": true,
+      "target_ko": "프로듀서　　　　　　모로사와 마사오",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/023",
+      "source_file": "ending_staff00.txt",
+      "line_index": 23,
+      "source_ja": "監督　　　　　　　　　　　松尾　衡",
+      "needs_translation": true,
+      "target_ko": "감독　　　　　　　　　　　마츠오 히데시",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/024",
+      "source_file": "ending_staff00.txt",
+      "line_index": 24,
+      "source_ja": "アニメーションキャラクターデザイン・総作画監督",
+      "needs_translation": true,
+      "target_ko": "애니메이션 캐릭터 디자인・총작화 감독",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/025",
+      "source_file": "ending_staff00.txt",
+      "line_index": 25,
+      "source_ja": "　　　　　　　　　　　　　林　明美",
+      "needs_translation": true,
+      "target_ko": "하야시 아케미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/026",
+      "source_file": "ending_staff00.txt",
+      "line_index": 26,
+      "source_ja": "色彩設計　　　　　　　　　角本百合子",
+      "needs_translation": true,
+      "target_ko": "색채 설계　　　　　　　　　카쿠모토 유리코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/028",
+      "source_file": "ending_staff00.txt",
+      "line_index": 28,
+      "source_ja": "声の出演　　　デ・ジ・キャラット　　　／真田アサミ",
+      "needs_translation": true,
+      "target_ko": "출연 성우　　　데·지·캐럿　　　／사나다 아사미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/029",
+      "source_file": "ending_staff00.txt",
+      "line_index": 29,
+      "source_ja": "　　　　　　　プチ・キャラット　　　　／沢城みゆき",
+      "needs_translation": true,
+      "target_ko": "푸치·캐럿　　　　／사와시로 미유키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/030",
+      "source_file": "ending_staff00.txt",
+      "line_index": 30,
+      "source_ja": "　　　　　　　ラ・ビ・アン・ローズ　　／氷上恭子",
+      "needs_translation": true,
+      "target_ko": "라·비·앙·로즈　　／카미카와 쿄코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/031",
+      "source_file": "ending_staff00.txt",
+      "line_index": 31,
+      "source_ja": "　　　　　　　ゲマ　　　　　　　　　　／亀井芳子",
+      "needs_translation": true,
+      "target_ko": "게마　　　　　　　　　　／카메이 요시코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/032",
+      "source_file": "ending_staff00.txt",
+      "line_index": 32,
+      "source_ja": "　　　　　　　雛菊　　　　　　　　　　／小暮英麻",
+      "needs_translation": true,
+      "target_ko": "히나기쿠　　　　　　　　／코구레 에마",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/033",
+      "source_file": "ending_staff00.txt",
+      "line_index": 33,
+      "source_ja": "　　　　　　　カレラ　　　　　　　　　／津村まこと",
+      "needs_translation": true,
+      "target_ko": "카레라　　　　　　　　／츠무라 마코토",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/034",
+      "source_file": "ending_staff00.txt",
+      "line_index": 34,
+      "source_ja": "　　　　　　　ウェンディ　　　　　　　／浅井清己",
+      "needs_translation": true,
+      "target_ko": "웬디　　　　　　　　　／아사이 키요시",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/035",
+      "source_file": "ending_staff00.txt",
+      "line_index": 35,
+      "source_ja": "　　　　　　　エリカ　　　　　　　　　／沢海陽子",
+      "needs_translation": true,
+      "target_ko": "에리카　　　　　　　　／사와미 요코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/036",
+      "source_file": "ending_staff00.txt",
+      "line_index": 36,
+      "source_ja": "　　　　　　　ルーン　　　　　　　　　／小島幸子",
+      "needs_translation": true,
+      "target_ko": "룬　　　　　　　　　　／코지마 사치코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/037",
+      "source_file": "ending_staff00.txt",
+      "line_index": 37,
+      "source_ja": "　　　　　　　ルナ　　　　　　　　　　／増田ゆき",
+      "needs_translation": true,
+      "target_ko": "루나　　　　　　　　　／마스다 유키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/038",
+      "source_file": "ending_staff00.txt",
+      "line_index": 38,
+      "source_ja": "　　　　　　　セシル　　　　　　　　　／中島沙樹",
+      "needs_translation": true,
+      "target_ko": "세실　　　　　　　　　／나카지마 사키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/039",
+      "source_file": "ending_staff00.txt",
+      "line_index": 39,
+      "source_ja": "　　　　　　　カイン　　　　　　　　　／石田　彰",
+      "needs_translation": true,
+      "target_ko": "카인　　　　　　　　　／이시다 아키라",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/040",
+      "source_file": "ending_staff00.txt",
+      "line_index": 40,
+      "source_ja": "　　　　　　　鈴　　　　　　　　　　　／岡村明美",
+      "needs_translation": true,
+      "target_ko": "스즈　　　　　　　　　／오카무라 아케미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/042",
+      "source_file": "ending_staff00.txt",
+      "line_index": 42,
+      "source_ja": "　　　　　　　雛菊の父　　　　　　　　／納谷六朗",
+      "needs_translation": true,
+      "target_ko": "히나기쿠의 아버지　　　／나토야 로스로",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/043",
+      "source_file": "ending_staff00.txt",
+      "line_index": 43,
+      "source_ja": "　　　　　　　グレッグ　　　　　　　　／秋元羊介",
+      "needs_translation": true,
+      "target_ko": "그레그　　　　　　　　／아키모토 요스케",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/044",
+      "source_file": "ending_staff00.txt",
+      "line_index": 44,
+      "source_ja": "　　　　　　　邪神　　　　　　　　　　／水間真紀",
+      "needs_translation": true,
+      "target_ko": "사신　　　　　　　　　／미즈마 마키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/045",
+      "source_file": "ending_staff00.txt",
+      "line_index": 45,
+      "source_ja": "　　　　　　　　　　　　　　　　　　　／楠見尚己",
+      "needs_translation": true,
+      "target_ko": "／쿠스미 나오키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/047",
+      "source_file": "ending_staff00.txt",
+      "line_index": 47,
+      "source_ja": "　　　　　　　ピョコラ＝アナローグⅢ世／林原　めぐみ",
+      "needs_translation": true,
+      "target_ko": "뾰콜라 아날로그 3세／하야시하라 메구미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/048",
+      "source_file": "ending_staff00.txt",
+      "line_index": 48,
+      "source_ja": "　　　　　　　リク＝ハイゼンベルク　　／鳥海　浩輔",
+      "needs_translation": true,
+      "target_ko": "리쿠 하이젠베르크　　／토리우미 코스케",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/049",
+      "source_file": "ending_staff00.txt",
+      "line_index": 49,
+      "source_ja": "　　　　　　　カイ＝シュヴァイツァー　／鈴木　千尋",
+      "needs_translation": true,
+      "target_ko": "카이 슈바이처　／스즈키 치히로",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/050",
+      "source_file": "ending_staff00.txt",
+      "line_index": 50,
+      "source_ja": "　　　　　　　クウ＝エアハルト　　　　／サエキトモ",
+      "needs_translation": true,
+      "target_ko": "쿠우 에어하르트　　　　／사에키 토모",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/052",
+      "source_file": "ending_staff00.txt",
+      "line_index": 52,
+      "source_ja": "キャスティング　宮本朋律(株)マウスプロモーション",
+      "needs_translation": true,
+      "target_ko": "캐스팅　마우스 프로모션 주식회사",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/053",
+      "source_file": "ending_staff00.txt",
+      "line_index": 53,
+      "source_ja": "音響演出　　　　高橋秀雄(有)ドリーム・フォース",
+      "needs_translation": true,
+      "target_ko": "음향 연출　　　　타카하시 히데오(유) 드림 포스",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/054",
+      "source_file": "ending_staff00.txt",
+      "line_index": 54,
+      "source_ja": "録音スタジオ　　Studio　MAUSU",
+      "needs_translation": true,
+      "target_ko": "녹음 스튜디오　　Studio　MAUSU",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/055",
+      "source_file": "ending_staff00.txt",
+      "line_index": 55,
+      "source_ja": "ミキサー　　　　青木正俊・成田一明・清本百合子",
+      "needs_translation": true,
+      "target_ko": "믹서　　　　아오키 마사토시・나리타 카즈아키・키요모토 유리코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/056",
+      "source_file": "ending_staff00.txt",
+      "line_index": 56,
+      "source_ja": "音楽　　　　　　土山茂三(有)津田沼広房",
+      "needs_translation": true,
+      "target_ko": "음악　　　　　　츠치야 시게미츠(유)츠다누마 히로후사",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/057",
+      "source_file": "ending_staff00.txt",
+      "line_index": 57,
+      "source_ja": "　　　　　　　　上松範康(有)リバーサイド・ミュージック",
+      "needs_translation": true,
+      "target_ko": "우에마츠 노리야스(유)리버사이드 뮤직",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/059",
+      "source_file": "ending_staff00.txt",
+      "line_index": 59,
+      "source_ja": "オープニング　　　「Ｗｅｌｃｏｍｅ！２０００」",
+      "needs_translation": true,
+      "target_ko": "오프닝　　　「Ｗｅｌｃｏｍｅ！２０００」",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/060",
+      "source_file": "ending_staff00.txt",
+      "line_index": 60,
+      "source_ja": "　　　　　　　　　　唄　　　　　　真田アサミ",
+      "needs_translation": true,
+      "target_ko": "노래　　　　　사나다 아사미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/061",
+      "source_file": "ending_staff00.txt",
+      "line_index": 61,
+      "source_ja": "　　　　　　　　　　　　　　　　　かとうひろこ",
+      "needs_translation": true,
+      "target_ko": "카토 히로코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/062",
+      "source_file": "ending_staff00.txt",
+      "line_index": 62,
+      "source_ja": "　　　　　　　　　　作詞　　　　　コゲどんぼ",
+      "needs_translation": true,
+      "target_ko": "작사　　　　　코게돈보",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/063",
+      "source_file": "ending_staff00.txt",
+      "line_index": 63,
+      "source_ja": "　　　　　　　　　　作曲　　　　　坂本裕介",
+      "needs_translation": true,
+      "target_ko": "작곡　　　　　사카모토 유스케",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/065",
+      "source_file": "ending_staff00.txt",
+      "line_index": 65,
+      "source_ja": "挿入歌　　　　　　「Ｗｅｌｃｏｍｅ！",
+      "needs_translation": true,
+      "target_ko": "삽입곡　　　　「Ｗｅｌｃｏｍｅ！",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/066",
+      "source_file": "ending_staff00.txt",
+      "line_index": 66,
+      "source_ja": "　　　ラ・ビ・アン・ローズ・エレガント・バージョン」",
+      "needs_translation": true,
+      "target_ko": "라 비 앙 로즈 엘레강트 버전」",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/067",
+      "source_file": "ending_staff00.txt",
+      "line_index": 67,
+      "source_ja": "　　　　　　　　　　唄　　　　　　氷上恭子",
+      "needs_translation": true,
+      "target_ko": "노래　　　　　　히카미 쿄코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/068",
+      "source_file": "ending_staff00.txt",
+      "line_index": 68,
+      "source_ja": "　　　　　　　　　　作詞　　　　　コゲどんぼ",
+      "needs_translation": true,
+      "target_ko": "작사　　　　　코게돈보",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/069",
+      "source_file": "ending_staff00.txt",
+      "line_index": 69,
+      "source_ja": "　　　　　　　　　　作曲　　　　　坂本裕介",
+      "needs_translation": true,
+      "target_ko": "작곡　　　　　사카모토 유스케",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/071",
+      "source_file": "ending_staff00.txt",
+      "line_index": 71,
+      "source_ja": "エンディング　　　「ＲＩＮＧ☆ＲＩＮＧ☆ＲＩＮＧ☆」",
+      "needs_translation": true,
+      "target_ko": "엔딩　　　「ＲＩＮＧ☆ＲＩＮＧ☆ＲＩＮＧ☆」",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/072",
+      "source_file": "ending_staff00.txt",
+      "line_index": 72,
+      "source_ja": "　　　　　　　　　　唄　　　　　　真田アサミ",
+      "needs_translation": true,
+      "target_ko": "노래　　　　　사나다 아사미",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/073",
+      "source_file": "ending_staff00.txt",
+      "line_index": 73,
+      "source_ja": "　　　　　　　　　　作詞　　　　　森ユキ",
+      "needs_translation": true,
+      "target_ko": "작사　　　　　모리 유키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/074",
+      "source_file": "ending_staff00.txt",
+      "line_index": 74,
+      "source_ja": "　　　　　　　　　　作曲　　　　　坂本裕介",
+      "needs_translation": true,
+      "target_ko": "작곡　　　　　사카모토 유스케",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/077",
+      "source_file": "ending_staff00.txt",
+      "line_index": 77,
+      "source_ja": "プロモーション　　　中田知宏",
+      "needs_translation": true,
+      "target_ko": "프로모션　　　나카타 토모히로",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/079",
+      "source_file": "ending_staff00.txt",
+      "line_index": 79,
+      "source_ja": "＜\"PlayStation 2\"版 開発スタッフ＞",
+      "needs_translation": true,
+      "target_ko": "＜\"PlayStation 2\"판 개발 스태프＞",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/081",
+      "source_file": "ending_staff00.txt",
+      "line_index": 81,
+      "source_ja": "\"PlayStation 2\"版 追加シナリオ　　  ",
+      "needs_translation": true,
+      "target_ko": "\"PlayStation 2\"판 추가 시나리오　　  ",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/082",
+      "source_file": "ending_staff00.txt",
+      "line_index": 82,
+      "source_ja": "　　　　　　　　　　　　　　　　　菜の花すみれ",
+      "needs_translation": true,
+      "target_ko": "나노하나 스미레",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/083",
+      "source_file": "ending_staff00.txt",
+      "line_index": 83,
+      "source_ja": "\"PlayStation 2\"版 追加シナリオ監修",
+      "needs_translation": true,
+      "target_ko": "\"PlayStation 2\"판 추가 시나리오 감수",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/084",
+      "source_file": "ending_staff00.txt",
+      "line_index": 84,
+      "source_ja": "　　　　　　　　　　　　　　　　　あかほりさとる",
+      "needs_translation": true,
+      "target_ko": "아카호리 사토루",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/086",
+      "source_file": "ending_staff00.txt",
+      "line_index": 86,
+      "source_ja": "プログラム　　　　　　　　　　　　阿部哲也",
+      "needs_translation": true,
+      "target_ko": "프로그램　　　　　　　　　　　　아베 테츠야",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/087",
+      "source_file": "ending_staff00.txt",
+      "line_index": 87,
+      "source_ja": "　　　　　　　　　　　　　　　　　原篠　誠",
+      "needs_translation": true,
+      "target_ko": "하라니시 마코토",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/088",
+      "source_file": "ending_staff00.txt",
+      "line_index": 88,
+      "source_ja": "ツール　　　　　　　　　　　　　　高橋智宏",
+      "needs_translation": true,
+      "target_ko": "툴　　　　　　　　　　　　　　다카하시 도모히로",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/089",
+      "source_file": "ending_staff00.txt",
+      "line_index": 89,
+      "source_ja": "グラフィック　　　　　　　　　　　椎名　誠",
+      "needs_translation": true,
+      "target_ko": "그래픽　　　　　　　　　　　시이나 마코토",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/090",
+      "source_file": "ending_staff00.txt",
+      "line_index": 90,
+      "source_ja": "　　　　　　　　　　　　　　　　　椎名夏子",
+      "needs_translation": true,
+      "target_ko": "시이나 나츠코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/091",
+      "source_file": "ending_staff00.txt",
+      "line_index": 91,
+      "source_ja": "　　　　　　　　　　　　　　　　　渡辺拓也",
+      "needs_translation": true,
+      "target_ko": "와타나베 타쿠야",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/092",
+      "source_file": "ending_staff00.txt",
+      "line_index": 92,
+      "source_ja": "スクリプト　　　　　　　　　　　　伊藤哲哉",
+      "needs_translation": true,
+      "target_ko": "스크립트　　　　　　　　　　　　이토 테츠야",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/093",
+      "source_file": "ending_staff00.txt",
+      "line_index": 93,
+      "source_ja": "音楽編集　　　　　　　　　　　　　並木　学",
+      "needs_translation": true,
+      "target_ko": "음악 편집　　　　　　　　　　　　나미키 마나부",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/094",
+      "source_file": "ending_staff00.txt",
+      "line_index": 94,
+      "source_ja": "デバッグ　　　　　　　　　　　　　田所　宰",
+      "needs_translation": true,
+      "target_ko": "디버그　　　　　　　　　　　　타도코로 카이",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/095",
+      "source_file": "ending_staff00.txt",
+      "line_index": 95,
+      "source_ja": "　　　　　　　　　　　　　　　　　松田卓郎",
+      "needs_translation": true,
+      "target_ko": "마츠다 타쿠로",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/096",
+      "source_file": "ending_staff00.txt",
+      "line_index": 96,
+      "source_ja": "　　　　　　　　　　　　　　　　　(株)ドリームス",
+      "needs_translation": true,
+      "target_ko": "(주)드림스",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/098",
+      "source_file": "ending_staff00.txt",
+      "line_index": 98,
+      "source_ja": "プロジェクトマネージメント　　　　堀井直樹",
+      "needs_translation": true,
+      "target_ko": "프로젝트 매니지먼트　　　　호리이 나오키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/099",
+      "source_file": "ending_staff00.txt",
+      "line_index": 99,
+      "source_ja": "\"PlayStation 2\"版 ディレクター",
+      "needs_translation": true,
+      "target_ko": "\"PlayStation 2\"판 디렉터",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/100",
+      "source_file": "ending_staff00.txt",
+      "line_index": 100,
+      "source_ja": "　　　　　　　　　　　　　　　　　橋本享明",
+      "needs_translation": true,
+      "target_ko": "하시모토 토시아키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/102",
+      "source_file": "ending_staff00.txt",
+      "line_index": 102,
+      "source_ja": "アシスタントプロデューサー　　　　渡辺直行",
+      "needs_translation": true,
+      "target_ko": "어시스턴트 프로듀서　　　　와타나베 나오유키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/103",
+      "source_file": "ending_staff00.txt",
+      "line_index": 103,
+      "source_ja": "プロデューサー　　　　　　　　　　久野天人",
+      "needs_translation": true,
+      "target_ko": "프로듀서　　　　　　　　　　쿠노 아마토",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/104",
+      "source_file": "ending_staff00.txt",
+      "line_index": 104,
+      "source_ja": "　　　　　　　　　　　　　　　　　大高寛之",
+      "needs_translation": true,
+      "target_ko": "오오타카 히로유키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/106",
+      "source_file": "ending_staff00.txt",
+      "line_index": 106,
+      "source_ja": "エグゼクティブプロデューサー　　　木谷高明",
+      "needs_translation": true,
+      "target_ko": "에그제큐티브 프로듀서　　　키야 타카아키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/109",
+      "source_file": "ending_staff00.txt",
+      "line_index": 109,
+      "source_ja": "制作　　　　　　　　　　　　　株式会社ブロッコリー",
+      "needs_translation": true,
+      "target_ko": "제작　　　　　　　　　　　　　주식회사 브로콜리",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff00/110",
+      "source_file": "ending_staff00.txt",
+      "line_index": 110,
+      "source_ja": "　　　　　　　　　　　　　　　㍉BROCCOLI 2003",
+      "needs_translation": false,
+      "target_ko": ""
+    },
+    {
+      "id": "staff00/112",
+      "source_file": "ending_staff00.txt",
+      "line_index": 112,
+      "source_ja": "[EOF]",
+      "needs_translation": false,
+      "target_ko": ""
+    }
+  ],
+  "staff01_aliases": [
+    {
+      "staff01_line_index": 0,
+      "staff00_line_index": 0
+    },
+    {
+      "staff01_line_index": 1,
+      "staff00_line_index": 1
+    },
+    {
+      "staff01_line_index": 2,
+      "staff00_line_index": 2
+    },
+    {
+      "staff01_line_index": 3,
+      "staff00_line_index": 3
+    },
+    {
+      "staff01_line_index": 4,
+      "staff00_line_index": 4
+    },
+    {
+      "staff01_line_index": 7,
+      "staff00_line_index": 6
+    },
+    {
+      "staff01_line_index": 8,
+      "staff00_line_index": 7
+    },
+    {
+      "staff01_line_index": 9,
+      "staff00_line_index": 8
+    },
+    {
+      "staff01_line_index": 10,
+      "staff00_line_index": 9
+    },
+    {
+      "staff01_line_index": 11,
+      "staff00_line_index": 10
+    },
+    {
+      "staff01_line_index": 12,
+      "staff00_line_index": 11
+    },
+    {
+      "staff01_line_index": 13,
+      "staff00_line_index": 12
+    },
+    {
+      "staff01_line_index": 14,
+      "staff00_line_index": 13
+    },
+    {
+      "staff01_line_index": 15,
+      "staff00_line_index": 14
+    },
+    {
+      "staff01_line_index": 16,
+      "staff00_line_index": 15
+    },
+    {
+      "staff01_line_index": 17,
+      "staff00_line_index": 16
+    },
+    {
+      "staff01_line_index": 18,
+      "staff00_line_index": 17
+    },
+    {
+      "staff01_line_index": 19,
+      "staff00_line_index": 18
+    },
+    {
+      "staff01_line_index": 20,
+      "staff00_line_index": 19
+    },
+    {
+      "staff01_line_index": 23,
+      "staff00_line_index": 21
+    },
+    {
+      "staff01_line_index": 24,
+      "staff00_line_index": 22
+    },
+    {
+      "staff01_line_index": 25,
+      "staff00_line_index": 23
+    },
+    {
+      "staff01_line_index": 26,
+      "staff00_line_index": 24
+    },
+    {
+      "staff01_line_index": 27,
+      "staff00_line_index": 25
+    },
+    {
+      "staff01_line_index": 28,
+      "staff00_line_index": 26
+    },
+    {
+      "staff01_line_index": 31,
+      "staff00_line_index": 28
+    },
+    {
+      "staff01_line_index": 32,
+      "staff00_line_index": 29
+    },
+    {
+      "staff01_line_index": 33,
+      "staff00_line_index": 30
+    },
+    {
+      "staff01_line_index": 34,
+      "staff00_line_index": 31
+    },
+    {
+      "staff01_line_index": 35,
+      "staff00_line_index": 32
+    },
+    {
+      "staff01_line_index": 36,
+      "staff00_line_index": 33
+    },
+    {
+      "staff01_line_index": 37,
+      "staff00_line_index": 34
+    },
+    {
+      "staff01_line_index": 38,
+      "staff00_line_index": 35
+    },
+    {
+      "staff01_line_index": 39,
+      "staff00_line_index": 36
+    },
+    {
+      "staff01_line_index": 40,
+      "staff00_line_index": 37
+    },
+    {
+      "staff01_line_index": 41,
+      "staff00_line_index": 38
+    },
+    {
+      "staff01_line_index": 42,
+      "staff00_line_index": 39
+    },
+    {
+      "staff01_line_index": 43,
+      "staff00_line_index": 40
+    },
+    {
+      "staff01_line_index": 45,
+      "staff00_line_index": 42
+    },
+    {
+      "staff01_line_index": 46,
+      "staff00_line_index": 43
+    },
+    {
+      "staff01_line_index": 47,
+      "staff00_line_index": 44
+    },
+    {
+      "staff01_line_index": 48,
+      "staff00_line_index": 45
+    },
+    {
+      "staff01_line_index": 50,
+      "staff00_line_index": 47
+    },
+    {
+      "staff01_line_index": 51,
+      "staff00_line_index": 48
+    },
+    {
+      "staff01_line_index": 52,
+      "staff00_line_index": 49
+    },
+    {
+      "staff01_line_index": 53,
+      "staff00_line_index": 50
+    },
+    {
+      "staff01_line_index": 56,
+      "staff00_line_index": 52
+    },
+    {
+      "staff01_line_index": 57,
+      "staff00_line_index": 53
+    },
+    {
+      "staff01_line_index": 58,
+      "staff00_line_index": 54
+    },
+    {
+      "staff01_line_index": 59,
+      "staff00_line_index": 55
+    },
+    {
+      "staff01_line_index": 60,
+      "staff00_line_index": 56
+    },
+    {
+      "staff01_line_index": 61,
+      "staff00_line_index": 57
+    },
+    {
+      "staff01_line_index": 64,
+      "staff00_line_index": 59
+    },
+    {
+      "staff01_line_index": 65,
+      "staff00_line_index": 60
+    },
+    {
+      "staff01_line_index": 66,
+      "staff00_line_index": 61
+    },
+    {
+      "staff01_line_index": 67,
+      "staff00_line_index": 62
+    },
+    {
+      "staff01_line_index": 68,
+      "staff00_line_index": 63
+    },
+    {
+      "staff01_line_index": 71,
+      "staff00_line_index": 65
+    },
+    {
+      "staff01_line_index": 72,
+      "staff00_line_index": 66
+    },
+    {
+      "staff01_line_index": 73,
+      "staff00_line_index": 67
+    },
+    {
+      "staff01_line_index": 74,
+      "staff00_line_index": 68
+    },
+    {
+      "staff01_line_index": 75,
+      "staff00_line_index": 69
+    },
+    {
+      "staff01_line_index": 79,
+      "staff00_line_index": 72
+    },
+    {
+      "staff01_line_index": 82,
+      "staff00_line_index": 73
+    },
+    {
+      "staff01_line_index": 83,
+      "staff00_line_index": 74
+    },
+    {
+      "staff01_line_index": 86,
+      "staff00_line_index": 77
+    },
+    {
+      "staff01_line_index": 90,
+      "staff00_line_index": 79
+    },
+    {
+      "staff01_line_index": 92,
+      "staff00_line_index": 81
+    },
+    {
+      "staff01_line_index": 93,
+      "staff00_line_index": 82
+    },
+    {
+      "staff01_line_index": 94,
+      "staff00_line_index": 83
+    },
+    {
+      "staff01_line_index": 95,
+      "staff00_line_index": 84
+    },
+    {
+      "staff01_line_index": 97,
+      "staff00_line_index": 86
+    },
+    {
+      "staff01_line_index": 98,
+      "staff00_line_index": 87
+    },
+    {
+      "staff01_line_index": 99,
+      "staff00_line_index": 88
+    },
+    {
+      "staff01_line_index": 100,
+      "staff00_line_index": 89
+    },
+    {
+      "staff01_line_index": 101,
+      "staff00_line_index": 90
+    },
+    {
+      "staff01_line_index": 102,
+      "staff00_line_index": 91
+    },
+    {
+      "staff01_line_index": 103,
+      "staff00_line_index": 92
+    },
+    {
+      "staff01_line_index": 104,
+      "staff00_line_index": 93
+    },
+    {
+      "staff01_line_index": 105,
+      "staff00_line_index": 94
+    },
+    {
+      "staff01_line_index": 106,
+      "staff00_line_index": 95
+    },
+    {
+      "staff01_line_index": 107,
+      "staff00_line_index": 96
+    },
+    {
+      "staff01_line_index": 109,
+      "staff00_line_index": 98
+    },
+    {
+      "staff01_line_index": 110,
+      "staff00_line_index": 99
+    },
+    {
+      "staff01_line_index": 111,
+      "staff00_line_index": 100
+    },
+    {
+      "staff01_line_index": 113,
+      "staff00_line_index": 102
+    },
+    {
+      "staff01_line_index": 114,
+      "staff00_line_index": 103
+    },
+    {
+      "staff01_line_index": 115,
+      "staff00_line_index": 104
+    },
+    {
+      "staff01_line_index": 117,
+      "staff00_line_index": 106
+    },
+    {
+      "staff01_line_index": 121,
+      "staff00_line_index": 109
+    },
+    {
+      "staff01_line_index": 122,
+      "staff00_line_index": 110
+    },
+    {
+      "staff01_line_index": 124,
+      "staff00_line_index": 112
+    }
+  ],
+  "staff01_extras": [
+    {
+      "id": "staff01/078",
+      "source_file": "ending_staff01.txt",
+      "line_index": 78,
+      "source_ja": "エンディング　　　「ＰＡＲＴＹ☆ＮＩＧＨＴ」",
+      "needs_translation": true,
+      "target_ko": "엔딩　　　「ＰＡＲＴＹ☆ＮＩＧＨＴ」",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff01/080",
+      "source_file": "ending_staff01.txt",
+      "line_index": 80,
+      "source_ja": "　　　　　　　　　　　　　　　　　沢城みゆき",
+      "needs_translation": true,
+      "target_ko": "사와시로 미유키",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    },
+    {
+      "id": "staff01/081",
+      "source_file": "ending_staff01.txt",
+      "line_index": 81,
+      "source_ja": "　　　　　　　　　　　　　　　　　氷上恭子",
+      "needs_translation": true,
+      "target_ko": "카미죠 쿄코",
+      "translation_source": "gemma-4-26b-a4b-it-qat"
+    }
+  ]
+}
