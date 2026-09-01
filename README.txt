@@ -12,8 +12,8 @@ SHA-256 580e033b1833aadb98bec2dd083f24000d09d7201df3473cdbeb8f56a46433e5
 
 패치:
 digicarr_fantasy_excellent_kr_v0.1.xdelta
-크기    108,398,117 bytes
-SHA-256 0fa14b8247fe6c0fac9466b4834fcc0144cdab3e97c8e90f60be3ce37ffe7602
+크기    113,115,664 bytes
+SHA-256 1af36f1b8a20f916f93d84a6f929b6f9c1f9618a428ef4026d9c064604cce193
 
 적용:
 1. Releases에서 .xdelta 파일을 받습니다.
@@ -23,9 +23,9 @@ SHA-256 0fa14b8247fe6c0fac9466b4834fcc0144cdab3e97c8e90f60be3ce37ffe7602
 
 패치 적용 후 ISO:
 크기    1,646,854,144 bytes
-MD5     7a7581028b5275ad7039ec8a0249987d
-SHA-1   ec0ef0398f48ed2b1954ed9ed1985f4eba242c0c
-SHA-256 2409d226232eaa2f3262ae96a7fe26e9b677abeea19f8a5a8caed59372ee9122
+MD5     7c423f37711acded1a05b061ae5ce964
+SHA-1   0b99d145facd0b945812fd5bbdf3b1dc4c179b8f
+SHA-256 ce1b2f04f92e81a73d0792031ef66fc5ade2cfabf87284707b3024a403cfcd30
 
 제작 방식:
 - 삐요코 루트를 제외한 기존 루트는 Windows 한국판 번역/그래픽/영상 자산을 PS2판에 포팅
@@ -33,7 +33,9 @@ SHA-256 2409d226232eaa2f3262ae96a7fe26e9b677abeea19f8a5a8caed59372ee9122
 
 반영 범위:
 - 본편 시나리오 17,022 / 17,022
-- 시스템 문자열 124 / 124
+- 시스템 문자열 125 / 125
+- 선택지·장면 제목·확인문 등 보조 문자열 604 / 604
+- 개발자/테스트 SCX 일본어 tX 349개 추가 처리
 - 크레딧 184줄
 - ETC 이미지 11장
 - BG 이미지 9장
