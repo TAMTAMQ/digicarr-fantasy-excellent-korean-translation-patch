@@ -74,6 +74,34 @@ def verify_required_inputs() -> Path:
     return iso_path
 
 
+def verify_pak_sector_layout(label: str, original: Ps2Pak, patched: Ps2Pak) -> dict[str, int]:
+    if len(original.entries) != len(patched.entries):
+        raise ValueError(f"{label} entry count changed")
+    sequential_verified = 0
+    metadata_verified = 0
+    for index, (old, new) in enumerate(zip(original.entries, patched.entries, strict=True)):
+        if (old.name, old.offset, old.size) != (new.name, new.offset, new.size):
+            raise ValueError(
+                f"{label} entry metadata changed at {index}:{old.name}: "
+                f"old=({old.offset:#x},{old.size}) new=({new.offset:#x},{new.size})"
+            )
+        metadata_verified += 1
+        if old.offset % 0x800 or new.offset % 0x800:
+            raise ValueError(f"{label} member is not DVD-sector aligned: {old.name}")
+        if index + 1 < len(original.entries):
+            expected_old = (old.end + 0x7FF) & ~0x7FF
+            expected_new = (new.end + 0x7FF) & ~0x7FF
+            if original.entries[index + 1].offset != expected_old:
+                raise ValueError(f"source {label} is not sequential at {old.name}")
+            if patched.entries[index + 1].offset != expected_new:
+                raise ValueError(f"patched {label} is not sequential at {new.name}")
+            sequential_verified += 1
+    return {
+        "metadata_verified": metadata_verified,
+        "sequential_links_verified": sequential_verified,
+    }
+
+
 def patch_iso_members(source_iso: Path, output_iso: Path, replacements: dict[str, bytes]) -> dict[str, dict[str, int]]:
     iso = pycdlib.PyCdlib()
     iso.open(str(source_iso))
@@ -411,6 +439,8 @@ def main() -> None:
     afs = AfsArchive(script_original)
     etc = Ps2Pak(etc_original)
     bg = Ps2Pak(bg_original)
+    event = Ps2Pak(event_original)
+    face = Ps2Pak(face_original)
 
     replacements, scenario_stats = build_replacements(afs, scenario_doc, args.require_complete_scenario)
     product_replacement_count = len(replacements)
@@ -486,10 +516,139 @@ def main() -> None:
             }
         )
 
-    script_patched = afs.repack_fixed_size(scx_replacements, alignment=args.alignment)
+    # SCRIPT.AFS has a runtime-specific invariant which is stronger than the
+    # generic AFS TOC: the game reconstructs each member start by accumulating
+    # sector-rounded member sizes. Verify the source archive follows that rule
+    # before rebuilding it, then require the rebuilt archive to preserve it.
+    expected_original_script_offset = afs.entries[0].offset
+    for entry in afs.entries:
+        if entry.offset != expected_original_script_offset:
+            raise ValueError(
+                f"source SCRIPT.AFS is not sequential at {entry.name}: "
+                f"actual={entry.offset:#x} expected={expected_original_script_offset:#x}"
+            )
+        expected_original_script_offset = (
+            entry.offset + entry.size + args.alignment - 1
+        ) & ~(args.alignment - 1)
+
+    script_patched = afs.repack_fixed_size(
+        scx_replacements,
+        alignment=args.alignment,
+        sequential_layout=True,
+    )
     if len(script_patched) != len(script_original):
         raise ValueError("SCRIPT.AFS fixed-size build changed outer archive length")
     patched_afs = AfsArchive(script_patched)
+    expected_script_offset = patched_afs.entries[0].offset
+    for entry in patched_afs.entries:
+        if entry.offset != expected_script_offset:
+            raise ValueError(
+                f"SCRIPT.AFS sequential layout mismatch at {entry.name}: "
+                f"actual={entry.offset:#x} expected={expected_script_offset:#x}"
+            )
+        expected_script_offset = (
+            entry.offset + entry.size + args.alignment - 1
+        ) & ~(args.alignment - 1)
+    if patched_afs.names_offset != afs.names_offset or patched_afs.names_size != afs.names_size:
+        raise ValueError("SCRIPT.AFS repack changed filename-directory location/size")
+    if afs.has_filename_toc_mirror and not patched_afs.has_filename_toc_mirror:
+        raise ValueError("SCRIPT.AFS filename-directory TOC mirror is not synchronized")
+
+    # Full structural audit. Translation may only alter planned display fields;
+    # command population, control fields, branch/index semantics, and ld targets
+    # must remain identical to the Japanese source. This turns the scene-load
+    # freeze regression into a build-time failure instead of a runtime surprise.
+    runtime_scx_verified = 0
+    runtime_pointer_semantics_verified = 0
+    runtime_control_fields_verified = 0
+    runtime_ld_commands = 0
+    runtime_ld_targets: set[int] = set()
+    for old_entry, new_entry in zip(afs.entries, patched_afs.entries, strict=True):
+        old_scx = ScxFile.parse(afs.read(old_entry))
+        new_scx = ScxFile.parse(patched_afs.read(new_entry))
+        if len(old_scx.commands) != len(new_scx.commands):
+            raise ValueError(
+                f"SCX command population changed: {old_entry.index}:{old_entry.name} "
+                f"old={len(old_scx.commands)} new={len(new_scx.commands)}"
+            )
+        if old_scx.layout.command_indices != new_scx.layout.command_indices:
+            raise ValueError(f"SCX command-index table changed: {old_entry.index}:{old_entry.name}")
+
+        old_by_start = {command.start: command.index for command in old_scx.commands}
+        new_by_start = {command.start: command.index for command in new_scx.commands}
+        old_pointer_targets = tuple(old_by_start[p] for p in old_scx.layout.pointers)
+        new_pointer_targets = tuple(new_by_start[p] for p in new_scx.layout.pointers)
+        if old_pointer_targets != new_pointer_targets:
+            raise ValueError(f"SCX pointer semantics changed: {old_entry.index}:{old_entry.name}")
+        runtime_pointer_semantics_verified += len(old_pointer_targets)
+
+        text_map = by_entry.get(old_entry.index, {})
+        auxiliary_map = auxiliary_plan.get(old_entry.index, {})
+        allowed_fields = set(auxiliary_map)
+        for command in old_scx.tx_commands():
+            if command.text_id in text_map:
+                allowed_fields.add((command.index, 2))
+
+        for old_command, new_command in zip(old_scx.commands, new_scx.commands, strict=True):
+            if len(old_command.fields) != len(new_command.fields):
+                raise ValueError(
+                    f"SCX command field count changed: {old_entry.index}:{old_entry.name} "
+                    f"command={old_command.index} old={len(old_command.fields)} "
+                    f"new={len(new_command.fields)}"
+                )
+            for field_index, (old_field, new_field) in enumerate(
+                zip(old_command.fields, new_command.fields, strict=True)
+            ):
+                if old_field != new_field and (old_command.index, field_index) not in allowed_fields:
+                    raise ValueError(
+                        f"unplanned SCX control-field change: {old_entry.index}:{old_entry.name} "
+                        f"command={old_command.index} field={field_index} "
+                        f"old={old_field!r} new={new_field!r}"
+                    )
+                if (old_command.index, field_index) not in allowed_fields:
+                    runtime_control_fields_verified += 1
+
+            if old_command.tag == b"ld":
+                runtime_ld_commands += 1
+                if old_command.fields != new_command.fields:
+                    raise ValueError(
+                        f"SCX ld command changed: {old_entry.index}:{old_entry.name} "
+                        f"command={old_command.index}"
+                    )
+                if len(old_command.fields) < 2:
+                    raise ValueError(
+                        f"SCX ld command missing target: {old_entry.index}:{old_entry.name} "
+                        f"command={old_command.index}"
+                    )
+                try:
+                    target_index = int(old_command.fields[1].decode("ascii"))
+                except (UnicodeDecodeError, ValueError) as exc:
+                    raise ValueError(
+                        f"SCX ld target is not numeric: {old_entry.index}:{old_entry.name} "
+                        f"command={old_command.index} target={old_command.fields[1]!r}"
+                    ) from exc
+                if not 0 <= target_index < len(patched_afs.entries):
+                    raise ValueError(
+                        f"SCX ld target out of range: {old_entry.index}:{old_entry.name} "
+                        f"command={old_command.index} target={target_index}"
+                    )
+                runtime_ld_targets.add(target_index)
+        runtime_scx_verified += 1
+
+    # repack_fixed_size clears the whole data area before rewriting members.
+    # Assert every alignment gap (including the free tail before the filename
+    # directory) is zero so stale SCX bytes can never be mistaken for a target.
+    zero_padding_verified = 0
+    for index, entry in enumerate(patched_afs.entries):
+        limit = (
+            patched_afs.entries[index + 1].offset
+            if index + 1 < len(patched_afs.entries)
+            else patched_afs.names_offset
+        )
+        if any(script_patched[entry.end:limit]):
+            raise ValueError(f"SCRIPT.AFS contains nonzero alignment padding after {entry.name}")
+        zero_padding_verified += limit - entry.end
+
     decoded_verified = 0
     auxiliary_roundtrip_verified = 0
     for entry in patched_afs.entries:
@@ -533,6 +692,22 @@ def main() -> None:
     kanji_original = etc.read("kanji.fon")
     kanji_patched = patch_kanji_font(kanji_original, code_map, font_path)
     credit_payloads = encode_credit_payloads(credit_plan, code_map)
+    # Keep credit members at their original byte sizes. The original ETC.PAK
+    # is sector-sequential, and ending_staff01 crosses a 0x800 sector boundary;
+    # allowing its translated payload to shrink would introduce a hole before
+    # the next member. The credit parser stops at the existing [EOF] marker, so
+    # zero-fill after that marker is inert while preserving the original PAK
+    # sector layout and size metadata exactly.
+    for credit_name, payload in list(credit_payloads.items()):
+        original_entry = etc.by_name[credit_name]
+        if not payload.endswith(b"[EOF]\n"):
+            raise ValueError(f"credit payload is missing [EOF] terminator: {credit_name}")
+        if len(payload) > original_entry.size:
+            raise ValueError(
+                f"translated credit payload exceeds original member: {credit_name} "
+                f"size={len(payload)} original={original_entry.size}"
+            )
+        credit_payloads[credit_name] = payload + b"\0" * (original_entry.size - len(payload))
     image_payloads: dict[str, bytes] = {}
     if ETC_IMAGE_READY_DIR.is_dir():
         for png_path in sorted(ETC_IMAGE_READY_DIR.glob("*.png")):
@@ -626,6 +801,13 @@ def main() -> None:
         )
         patched_etc = Ps2Pak(etc_patched)
         patched_bg = Ps2Pak(bg_patched)
+
+    pak_layout_audit = {
+        "ETC.PAK": verify_pak_sector_layout("ETC.PAK", etc, Ps2Pak(etc_patched)),
+        "BG.PAK": verify_pak_sector_layout("BG.PAK", bg, Ps2Pak(bg_patched)),
+        "EVENT.PAK": verify_pak_sector_layout("EVENT.PAK", event, Ps2Pak(event_patched)),
+        "FACE.PAK": verify_pak_sector_layout("FACE.PAK", face, Ps2Pak(face_patched)),
+    }
 
     slpm_patched, system_report = patch_system_strings(slpm_original, system_rows, code_map)
     slpm_patched, name_input_report = patch_name_input(slpm_patched, code_map)
@@ -799,11 +981,23 @@ def main() -> None:
             "kanji_font_original_sha256": sha256_bytes(kanji_original),
             "kanji_font_patched_sha256": sha256_bytes(kanji_patched),
         },
+        "pak_layout_audit": pak_layout_audit,
         "afs": {
             "alignment": args.alignment,
             "size": len(script_patched),
             "names_offset": patched_afs.names_offset,
             "moved_entries": moved,
+            "runtime_layout_audit": {
+                "source_sequential_layout_verified": len(afs.entries),
+                "patched_sequential_layout_verified": len(patched_afs.entries),
+                "filename_toc_mirror_verified": bool(patched_afs.has_filename_toc_mirror),
+                "scx_files_verified": runtime_scx_verified,
+                "pointer_semantics_verified": runtime_pointer_semantics_verified,
+                "control_fields_verified": runtime_control_fields_verified,
+                "ld_commands_verified": runtime_ld_commands,
+                "unique_ld_targets_verified": len(runtime_ld_targets),
+                "zero_padding_bytes_verified": zero_padding_verified,
+            },
         },
         "iso_members": iso_members,
         "hangul_code_map": [

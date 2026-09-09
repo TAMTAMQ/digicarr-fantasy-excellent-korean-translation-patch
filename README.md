@@ -10,16 +10,19 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 
 ### 현재 저장소 소스 상태
 
-현재 Git 소스에는 아래의 **기존 v0.1 Release 이후 수정 사항도 포함**되어 있습니다. 따라서 아래 `v0.1 패치 파일`의 해시/반영 범위는 기존 Release 자체의 기록이며, 현재 소스 스냅샷과 동일하다는 뜻은 아닙니다.
+현재 Git 소스는 **v0.2 Release 기준**입니다.
 
-- 이름 결정 확인창 시스템 문자열 추가: 시스템 문자열 `125 / 125`
-- 선택지·장면 제목·확인문 등 보조 문자열 `604개` 재삽입
-- 개발/테스트 SCX의 일본어 `tX` `349개` 추가 처리
-- 현재 로컬 최종 검증본: `digicarr_fantasy_excellent_kr_complete_v29.iso`
-- v29 SHA-256: `ce1b2f04f92e81a73d0792031ef66fc5ade2cfabf87284707b3024a403cfcd30`
-- v29은 밝기·감마·대비·채도 추가 보정을 사용하지 않은 원본 색상 빌드입니다.
+- 본편/개발·테스트 SCX 포함 시나리오 `17,371개` 적용
+- 시스템 문자열 `125 / 125`
+- 선택지·장면 제목·확인문 등 보조 문자열 `604개`
+- GitHub Issue #1에서 확인된 `SCRIPT.AFS` 장면 전환 프리징 수정
+- `SCRIPT.AFS` 120개 순차 0x800 섹터 재패킹 및 런타임 레이아웃 전수검사 추가
+- `ETC/BG/EVENT/FACE.PAK` 원본 메타데이터·0x800 배치 불변식 검증 추가
+- 최종 검증본: `digicarr_fantasy_excellent_kr_complete_v32_freeze_audit_test.iso`
+- v0.2 결과 ISO SHA-256: `dd3210001dfbe9f76d1d60000bc1006e64941090554e878a0b94616e221daf5c`
+- 밝기·감마·대비·채도 추가 보정을 사용하지 않은 원본 색상 빌드입니다.
 
-이미지와 영상 파생 자산은 Git에서 제외하므로, 위 v29 바이너리 자체를 이 저장소만으로 재현할 수는 없습니다.
+이미지와 영상 파생 자산은 Git에서 제외하므로, 위 최종 바이너리 자체를 이 저장소만으로 재현할 수는 없습니다.
 
 ## 1. 패치 대상 원본
 
@@ -40,21 +43,21 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 
 일반 사용자는 소스 코드를 빌드할 필요가 없습니다.
 
-1. GitHub **Releases**에서 `digicarr_fantasy_excellent_kr_v0.1.xdelta`를 받습니다.
+1. GitHub **Releases**에서 `digicarr_fantasy_excellent_kr_v0.2.xdelta`를 받습니다.
 2. [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases) 등을 실행합니다.
 3. `Original file`에 위 해시와 일치하는 일본판 원본 ISO를 지정합니다.
-4. `XDelta patch`에 `digicarr_fantasy_excellent_kr_v0.1.xdelta`를 지정합니다.
+4. `XDelta patch`에 `digicarr_fantasy_excellent_kr_v0.2.xdelta`를 지정합니다.
 5. 패치를 적용해 새 ISO를 만듭니다.
 
 원본 ISO에 직접 덮어쓰기보다는 새 출력 파일을 만드는 것을 권장합니다.
 
-### v0.1 패치 파일
+### v0.2 패치 파일
 
 | 항목 | 값 |
 | --- | --- |
-| 파일명 | `digicarr_fantasy_excellent_kr_v0.1.xdelta` |
-| 크기 | `113,115,664 bytes` |
-| SHA-256 | `1af36f1b8a20f916f93d84a6f929b6f9c1f9618a428ef4026d9c064604cce193` |
+| 파일명 | `digicarr_fantasy_excellent_kr_v0.2.xdelta` |
+| 크기 | `108,418,072 bytes` |
+| SHA-256 | `b0c501ef534fdef00dddc4604cd8f44dea9f5ca6bd3026ed4bc10a5c2942d6d6` |
 
 패치 생성 후 깨끗한 원본 ISO에 다시 적용해 최종 ISO와 **byte-for-byte 동일**한 것을 검증했습니다.
 
@@ -63,24 +66,32 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 | 항목 | 값 |
 | --- | --- |
 | 크기 | `1,646,854,144 bytes` |
-| MD5 | `7c423f37711acded1a05b061ae5ce964` |
-| SHA-1 | `0b99d145facd0b945812fd5bbdf3b1dc4c179b8f` |
-| SHA-256 | `ce1b2f04f92e81a73d0792031ef66fc5ade2cfabf87284707b3024a403cfcd30` |
+| MD5 | `e74dad19c5af8937b8d3715bc0959a94` |
+| SHA-1 | `1431d7b97806e3a5b453ce4a1ede45d5ad109925` |
+| SHA-256 | `dd3210001dfbe9f76d1d60000bc1006e64941090554e878a0b94616e221daf5c` |
 
-## 3. v0.1 번역 범위
+### v0.2 주요 수정
+
+- 번역 후 SCX 크기가 줄어들었을 때 `SCRIPT.AFS` 실제 배치와 게임의 섹터 누적 계산 위치가 어긋나 장면 전환 중 프리징되던 문제를 수정했습니다.
+- `SCRIPT.AFS`의 메인 TOC와 filename-directory 보조 TOC를 함께 갱신하고, 전체 120개 SCX를 원본과 동일한 0x800 순차 배치 규칙으로 재패킹합니다.
+- 전체 `ld` 165개, SCX 내부 포인터 74,025개, 제어 필드 189,367개를 빌드 시 전수검사합니다.
+- `ETC/BG/EVENT/FACE.PAK`도 원본과 동일한 entry name/offset/size 및 0x800 배치 규칙을 유지하도록 검증을 강화했습니다.
+- 삐요코 루트 `piyo_00~10` 및 중복 SCX, 저장 분기, 영상/엔딩/리소스 참조도 별도로 전수검사했습니다.
+
+## 3. v0.2 번역 범위
 
 최종 검증 기준으로 다음 항목이 반영되어 있습니다.
 
 | 영역 | 반영 상태 |
 | --- | ---: |
-| 본편 시나리오 | `17,022 / 17,022` |
+| 시나리오(개발·테스트 SCX 포함) | `17,371 / 17,371` |
 | PS2 시스템 문자열 | `125 / 125` |
 | 선택지·장면 제목·확인문 등 보조 문자열 | `604 / 604` |
 | 크레딧 | `184줄` |
 | ETC 이미지 | `11장` |
 | BG 이미지 | `9장` |
 | 자막/영상 교체 | `13개 SFD` |
-| SCRIPT.AFS 엔트리 이동 | `0` |
+| SCRIPT.AFS 순차 재배치 | `114개` |
 
 번역 대상 사용자 표시 문자열 기준으로 일본어 잔존을 전수 감사했습니다.
 

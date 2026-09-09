@@ -249,10 +249,51 @@ class AfsArchive:
                 raise ValueError(f"AFS entry exceeds file: {name}")
             entries.append(Entry(name=name, offset=off, size=size, index=i))
         self.entries = entries
+        # Some CRI AFS archives (including this game's SCRIPT.AFS) mirror the
+        # beginning of the TOC across the final u32 of successive 48-byte
+        # filename-directory records: file_count, offset0, size0, offset1,
+        # size1, ... .  The game can consult this secondary directory during
+        # runtime loads, so repacks must keep it synchronized with the primary
+        # TOC.  Detect the convention from the untouched input archive instead
+        # of assuming every AFS uses it.
+        toc_words = [self.file_count]
+        for entry in entries:
+            toc_words.extend((entry.offset, entry.size))
+        mirror_count = min(self.file_count, len(toc_words))
+        self.has_filename_toc_mirror = all(
+            struct.unpack_from(
+                "<I",
+                data,
+                names_offset + i * self.NAME_RECORD_SIZE + self.NAME_RECORD_SIZE - 4,
+            )[0]
+            == toc_words[i]
+            for i in range(mirror_count)
+        )
+
         # SCRIPT.AFS contains intentional duplicate piyo_* names. Preserve them.
         self.by_name: dict[str, list[Entry]] = {}
         for e in entries:
             self.by_name.setdefault(e.name, []).append(e)
+
+    def _sync_filename_toc_mirror(
+        self,
+        out: bytearray,
+        placements: list[int],
+        payloads: list[bytes],
+    ) -> None:
+        if not self.has_filename_toc_mirror:
+            return
+        toc_words = [self.file_count]
+        for start, payload in zip(placements, payloads, strict=True):
+            toc_words.extend((start, len(payload)))
+        mirror_count = min(self.file_count, len(toc_words))
+        for i in range(mirror_count):
+            struct.pack_into(
+                "<I",
+                out,
+                self.names_offset + i * self.NAME_RECORD_SIZE + self.NAME_RECORD_SIZE - 4,
+                toc_words[i],
+            )
 
     def read(self, entry: Entry) -> bytes:
         return self._data[entry.offset : entry.end]
@@ -267,6 +308,8 @@ class AfsArchive:
         """
 
         out = bytearray(self._data)
+        payloads = [replacements.get(e.index, self.read(e)) for e in self.entries]
+        placements = [e.offset for e in self.entries]
         for index, payload in sorted(replacements.items()):
             if not (0 <= index < len(self.entries)):
                 raise ValueError(f"AFS replacement index out of range: {index}")
@@ -289,8 +332,11 @@ class AfsArchive:
                 out[entry.offset + len(payload) : entry.end] = b"\0" * (entry.size - len(payload))
             struct.pack_into("<I", out, 8 + index * 8 + 4, len(payload))
 
+        self._sync_filename_toc_mirror(out, placements, payloads)
         result = bytes(out)
         reparsed = AfsArchive(result)
+        if self.has_filename_toc_mirror and not reparsed.has_filename_toc_mirror:
+            raise ValueError("AFS patch desynchronized filename-directory TOC mirror")
         if len(reparsed.entries) != len(self.entries):
             raise ValueError("AFS patch changed entry count")
         for old, new in zip(self.entries, reparsed.entries, strict=True):
@@ -298,13 +344,22 @@ class AfsArchive:
                 raise ValueError(f"AFS patch changed member identity/offset: {old.name}")
         return result
 
-    def repack_fixed_size(self, replacements: dict[int, bytes], alignment: int = 0x400) -> bytes:
+    def repack_fixed_size(
+        self,
+        replacements: dict[int, bytes],
+        alignment: int = 0x400,
+        *,
+        sequential_layout: bool = False,
+    ) -> bytes:
         """Repack members before the existing filename table without growing AFS.
 
-        Original member offsets are retained whenever possible.  If an expanded
-        member collides with the next original offset, only the necessary later
-        members move forward to the requested alignment.  The filename table,
-        archive byte length, entry order, and member names remain unchanged.
+        By default original member offsets are retained whenever possible.  If
+        ``sequential_layout`` is true, every member is instead placed immediately
+        after the previous member rounded up to ``alignment``.  SCRIPT.AFS needs
+        this because the game runtime reconstructs member starts by accumulating
+        sector-rounded sizes instead of trusting the primary AFS offset field.
+        The filename table, archive byte length, entry order, and member names
+        remain unchanged.
         """
 
         if alignment <= 0 or alignment & (alignment - 1):
@@ -317,7 +372,9 @@ class AfsArchive:
         placements: list[int] = []
         cursor = self.entries[0].offset
         for entry, payload in zip(self.entries, payloads, strict=True):
-            if entry.offset >= cursor:
+            if sequential_layout:
+                start = (cursor + alignment - 1) & ~(alignment - 1)
+            elif entry.offset >= cursor:
                 start = entry.offset
             else:
                 start = (cursor + alignment - 1) & ~(alignment - 1)
@@ -337,8 +394,11 @@ class AfsArchive:
             out[start : start + len(payload)] = payload
             struct.pack_into("<II", out, 8 + entry.index * 8, start, len(payload))
 
+        self._sync_filename_toc_mirror(out, placements, payloads)
         result = bytes(out)
         reparsed = AfsArchive(result)
+        if self.has_filename_toc_mirror and not reparsed.has_filename_toc_mirror:
+            raise ValueError("AFS fixed-size repack desynchronized filename-directory TOC mirror")
         if len(result) != len(self._data):
             raise ValueError("AFS fixed-size repack changed archive length")
         if len(reparsed.entries) != len(self.entries):
