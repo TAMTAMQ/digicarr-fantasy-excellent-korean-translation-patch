@@ -10,7 +10,7 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 
 ### 현재 저장소 소스 상태
 
-현재 Git 소스는 **v0.2 Release 기준**입니다.
+현재 Git 소스는 **v0.3 Release 기준**입니다.
 
 - 본편/개발·테스트 SCX 포함 시나리오 `17,371개` 적용
 - 시스템 문자열 `125 / 125`
@@ -18,8 +18,9 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 - GitHub Issue #1에서 확인된 `SCRIPT.AFS` 장면 전환 프리징 수정
 - `SCRIPT.AFS` 120개 순차 0x800 섹터 재패킹 및 런타임 레이아웃 전수검사 추가
 - `ETC/BG/EVENT/FACE.PAK` 원본 메타데이터·0x800 배치 불변식 검증 추가
-- 최종 검증본: `digicarr_fantasy_excellent_kr_complete_v32_freeze_audit_test.iso`
-- v0.2 결과 ISO SHA-256: `dd3210001dfbe9f76d1d60000bc1006e64941090554e878a0b94616e221daf5c`
+- 한글 폰트를 Pretendard SemiBold로 변경 (GitHub Issue #2 가독성 건의)
+- 최종 검증본: `digicarr_fantasy_excellent_kr_v0.3.iso`
+- v0.3 결과 ISO SHA-256: `ff1b3e9aa8e70c93073ad5694db08024059b9072d22504e10e5bdfa79d881dd9`
 - 밝기·감마·대비·채도 추가 보정을 사용하지 않은 원본 색상 빌드입니다.
 
 이미지와 영상 파생 자산은 Git에서 제외하므로, 위 최종 바이너리 자체를 이 저장소만으로 재현할 수는 없습니다.
@@ -43,21 +44,21 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 
 일반 사용자는 소스 코드를 빌드할 필요가 없습니다.
 
-1. GitHub **Releases**에서 `digicarr_fantasy_excellent_kr_v0.2.xdelta`를 받습니다.
+1. GitHub **Releases**에서 `digicarr_fantasy_excellent_kr_v0.3.xdelta`를 받습니다.
 2. [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases) 등을 실행합니다.
 3. `Original file`에 위 해시와 일치하는 일본판 원본 ISO를 지정합니다.
-4. `XDelta patch`에 `digicarr_fantasy_excellent_kr_v0.2.xdelta`를 지정합니다.
+4. `XDelta patch`에 `digicarr_fantasy_excellent_kr_v0.3.xdelta`를 지정합니다.
 5. 패치를 적용해 새 ISO를 만듭니다.
 
 원본 ISO에 직접 덮어쓰기보다는 새 출력 파일을 만드는 것을 권장합니다.
 
-### v0.2 패치 파일
+### v0.3 패치 파일
 
 | 항목 | 값 |
 | --- | --- |
-| 파일명 | `digicarr_fantasy_excellent_kr_v0.2.xdelta` |
-| 크기 | `108,418,072 bytes` |
-| SHA-256 | `b0c501ef534fdef00dddc4604cd8f44dea9f5ca6bd3026ed4bc10a5c2942d6d6` |
+| 파일명 | `digicarr_fantasy_excellent_kr_v0.3.xdelta` |
+| 크기 | `113,121,726 bytes` |
+| SHA-256 | `085ead404521a966ce0946d6c885cf5025b894f9e018671e677ee5d1b6623164` |
 
 패치 생성 후 깨끗한 원본 ISO에 다시 적용해 최종 ISO와 **byte-for-byte 동일**한 것을 검증했습니다.
 
@@ -66,9 +67,14 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 | 항목 | 값 |
 | --- | --- |
 | 크기 | `1,646,854,144 bytes` |
-| MD5 | `e74dad19c5af8937b8d3715bc0959a94` |
-| SHA-1 | `1431d7b97806e3a5b453ce4a1ede45d5ad109925` |
-| SHA-256 | `dd3210001dfbe9f76d1d60000bc1006e64941090554e878a0b94616e221daf5c` |
+| MD5 | `ee64ef9ed41a36a9180cc9bef668671a` |
+| SHA-1 | `c9cf39acf6cbd6c7b8c072ff79ded28c6f7754f8` |
+| SHA-256 | `ff1b3e9aa8e70c93073ad5694db08024059b9072d22504e10e5bdfa79d881dd9` |
+
+### v0.3 주요 수정
+
+- 한글 폰트를 Pretendard Regular에서 SemiBold로 바꿔 글자를 굵게 했습니다(Issue #2).
+- `풀섶`을 `풀숲`으로 통일하고, `뭔지 떠내려` → `뭔가 떠내려`, `깜빡 걸음을` → `무심코 걸음을`으로 고쳤습니다(Issue #2).
 
 ### v0.2 주요 수정
 
@@ -169,7 +175,7 @@ python tools/build_translation_iso.py \
   --require-complete-scenario \
   --require-complete-system \
   --require-complete-credits \
-  --font /path/to/Pretendard-Regular.otf
+  --font /path/to/Pretendard-SemiBold.otf
 ```
 
 빌더는 원본 ISO SHA-256, SCX 원문, 포인터, AFS 정렬, 글리프 코드 충돌, 시스템 문자열 슬롯, ETC/BG 재삽입, 최종 ISO readback 등을 검증합니다.

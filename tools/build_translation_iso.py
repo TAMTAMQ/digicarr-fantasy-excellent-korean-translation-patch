@@ -392,7 +392,7 @@ def main() -> None:
     parser.add_argument(
         "--font",
         type=Path,
-        default=ROOT.parent.parent / "reference_pretendard" / "packages" / "pretendard" / "dist" / "public" / "static" / "Pretendard-Regular.otf",
+        default=ROOT.parent.parent / "reference_pretendard" / "packages" / "pretendard" / "dist" / "public" / "static" / "Pretendard-SemiBold.otf",
         help="Hangul font used for PS2 24x24 2bpp kanji cells",
     )
     parser.add_argument(
