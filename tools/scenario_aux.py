@@ -8,6 +8,7 @@ from typing import Any
 
 from formats import AfsArchive
 from scx import ScxFile
+from korean_numbers import arabic_numbers
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -110,6 +111,7 @@ def build_auxiliary_plan(
                 raise ValueError(f"reviewed auxiliary target changed: {source_text!r}: {target!r}")
             target = override["target_ko"]
             method += "+reviewed"
+        target = arabic_numbers(target, source_text)
         key = (command_index, field_index)
         dest = plan.setdefault(entry_index, {})
         previous = dest.get(key)
@@ -486,6 +488,7 @@ def build_developer_tx_plan(
             continue
 
         key = (int(row["afs_index"]), int(row["local_id"]))
+        target = arabic_numbers(target, source)
         previous = plan.get(key)
         if previous is not None and previous != target:
             raise ValueError(

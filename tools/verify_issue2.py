@@ -47,7 +47,7 @@ def verify(iso: Path, report_path: Path) -> dict:
         "hina_07.scx/tX/163": "반드시",
         "hina_09.scx/tX/101": "댕강",
         "hina_10.scx/tX/97": "잡혔지",
-        "hina_10.scx/tX/147": "둘 다 바보뉴",
+        "hina_10.scx/tX/147": "2명 다 바보뉴",
         "erik_06.scx/tX/131": "설거지",
         "main.scx/tX/81": "그러고 보니，다른 사람들은 어떻게 됐을까？",
         "hina_06.scx/tX/163": "히나기쿠 씨의\n어머님은",

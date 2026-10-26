@@ -28,6 +28,8 @@ tools/*
 !tools/end_card.py
 !tools/verify_issue2.py
 !tools/verify_ascii_padding.py
+!tools/korean_numbers.py
+!tools/verify_numbers.py
 !tools/formats.py
 !tools/image_formats.py
 !tools/name_input_ko.py

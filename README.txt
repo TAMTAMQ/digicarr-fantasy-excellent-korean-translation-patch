@@ -1,4 +1,4 @@
-Di Gi Charat Fantasy Excellent (PS2) 한국어 패치 v0.4
+Di Gi Charat Fantasy Excellent (PS2) 한국어 패치 v0.4.1
 
 이 패치는 일본판 Di Gi Charat Fantasy Excellent PS2 원본 ISO에 적용하는 비공식 한국어
 패치입니다. 원본 ISO 자체는 포함하지 않습니다.
@@ -10,40 +10,22 @@ Di Gi Charat Fantasy Excellent (PS2) 한국어 패치 v0.4
 - SHA-256: 580e033b1833aadb98bec2dd083f24000d09d7201df3473cdbeb8f56a46433e5
 
 패치 파일
-- digicarr_fantasy_excellent_kr_v0.4.xdelta
+- digicarr_fantasy_excellent_kr_v0.4.1.xdelta
 
 적용 방법
 1. 위 SHA-256과 일치하는 일본판 원본 ISO를 준비합니다.
 2. xdelta3 또는 XDelta 패치를 지원하는 프로그램에서 원본 ISO를 Source로 지정합니다.
-3. digicarr_fantasy_excellent_kr_v0.4.xdelta를 Patch로 지정합니다.
+3. digicarr_fantasy_excellent_kr_v0.4.1.xdelta를 Patch로 지정합니다.
 4. 새 ISO를 Output으로 지정한 뒤 패치를 적용합니다.
 5. 생성된 ISO의 SHA-256이 아래 값과 일치하는지 확인합니다.
 
 패치 적용 결과 ISO
 - 크기: 1,646,854,144 bytes
-- MD5: 9b3c59f5091b8051f5f1594ea3b6d0b2
-- SHA-1: dc16af7cf423f297b23654467ed85be31b1d5672
-- SHA-256: 813a16292b6fc2976bad55395e0746f565b346e0309760046546fff7c644f8c8
+- MD5: ad86f01712567ef3a94edc2476620ae8
+- SHA-1: 12ee3f7c7ff455c0201bfbb86a0bd9fb453c2eeb
+- SHA-256: e297e2267ec0aed99282709e75cb30897783b4f69cb18cd60c440d2c821920c2
 
 주의
 - 다른 리비전의 ISO, 이미 수정된 ISO, 다른 패치가 적용된 ISO에는 적용하지 마세요.
 - 세이브스테이트는 패치 이전 런타임 상태를 그대로 보존할 수 있으므로 화면 문제가 보이면
   새 ISO에서 메뉴/화면을 다시 진입하거나 일반 세이브 데이터로 확인하는 것을 권장합니다.
-
-v0.4 주요 수정
-- 공백 뒤에 앞 글자의 획이 흰 세로선처럼 남던 반각 문자 변환 버퍼 오류 수정
-- 부탁드릴께요/할께요/도울께 등 맞춤법, 배고 고프고/댕겅 등 오타 수정
-- 원문 邪神에 해당하는 사신을 악신으로 통일
-- 반드시 구해내야 해, 잡혔지, 둘 다 바보뉴 등 문맥에 맞게 교정
-- 대사 3,430개 레코드의 맞춤법·띄어쓰기 등 교정, 선택지·장면 제목 20곳 반영
-- 단어·호칭이 줄 사이에서 끊기거나 교정 후 줄 폭이 늘어난 504개 문장 재배치
-- 엔딩의 おしまい 배경 이미지를 끝으로 번역
-
-검증 범위
-- 원본 ISO에서 새로 빌드한 뒤, 배포 XDelta를 원본에 재적용하여 검증 ISO와 SHA-256 일치 확인
-- tX 17,371개·시스템 문자열 125개 인코드/디코드 검증 및 SCX 120개 구조 검사
-- 줄바꿈 수정 504개를 최종 ISO에서 재읽어 3줄 이내·줄 폭 기준 확인
-- 원본 MIPS 코드에서 기 → 공백 순서의 잔상 60픽셀을 재현하고, 수정 후 0픽셀 확인
-- ASCII 96개 가시 픽셀·팔레트 및 한글/자모 2,810개 24×24 픽셀 보존 확인
-
-실제 PCSX2 화면 재확인은 미실시입니다. 일부 흰색 대사 제보는 추가 확인이 필요합니다.

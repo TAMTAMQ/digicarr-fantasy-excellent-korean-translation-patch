@@ -10,9 +10,9 @@ PlayStation 2용 **『デ・ジ・キャラット ファンタジー エクセ�
 
 ### 현재 저장소 소스 상태
 
-현재 Git 소스는 **v0.4 Release 기준**입니다.
+현재 Git 소스는 **v0.4.1 Release 기준**입니다.
 
-v0.4 상세 기록: [Issue #2 추가 제보 대응 기록](docs/issue2-20261026.md). 맞춤법·띄어쓰기, `邪神 → 악신`, 엔딩 `끝` 이미지를 반영했습니다. 반각 문자 버퍼의 잔상도 수정했습니다(MIPS 코드 실행 검증 통과, PCSX2 화면 확인은 미실시).
+v0.4.1 상세 기록: [Issue #2 추가 제보 대응 기록](docs/issue2-20261026.md). 맞춤법·띄어쓰기, `邪神 → 악신`, 엔딩 `끝` 이미지를 반영했습니다. 반각 문자 버퍼의 잔상도 수정했습니다(MIPS 코드 실행 검증 통과, PCSX2 화면 확인은 미실시).
 
 - 본편/개발·테스트 SCX 포함 시나리오 `17,371개` 적용
 - 시스템 문자열 `125 / 125`
@@ -21,8 +21,8 @@ v0.4 상세 기록: [Issue #2 추가 제보 대응 기록](docs/issue2-20261026.
 - `SCRIPT.AFS` 120개 순차 0x800 섹터 재패킹 및 런타임 레이아웃 전수검사 추가
 - `ETC/BG/EVENT/FACE.PAK` 원본 메타데이터·0x800 배치 불변식 검증 추가
 - 한글 폰트를 Pretendard SemiBold로 변경 (GitHub Issue #2 가독성 건의)
-- 최종 검증본: `digicarr_fantasy_excellent_kr_v0.4.iso`
-- v0.4 결과 ISO SHA-256: `813a16292b6fc2976bad55395e0746f565b346e0309760046546fff7c644f8c8`
+- 최종 검증본: `digicarr_fantasy_excellent_kr_v0.4.1.iso`
+- v0.4.1 결과 ISO SHA-256: `e297e2267ec0aed99282709e75cb30897783b4f69cb18cd60c440d2c821920c2`
 - 밝기·감마·대비·채도 추가 보정을 사용하지 않은 원본 색상 빌드입니다.
 
 이미지와 영상 파생 자산은 Git에서 제외하므로, 위 최종 바이너리 자체를 이 저장소만으로 재현할 수는 없습니다.
@@ -46,21 +46,21 @@ v0.4 상세 기록: [Issue #2 추가 제보 대응 기록](docs/issue2-20261026.
 
 일반 사용자는 소스 코드를 빌드할 필요가 없습니다.
 
-1. GitHub **Releases**에서 `digicarr_fantasy_excellent_kr_v0.4.xdelta`를 받습니다.
+1. GitHub **Releases**에서 `digicarr_fantasy_excellent_kr_v0.4.1.xdelta`를 받습니다.
 2. [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases) 등을 실행합니다.
 3. `Original file`에 위 해시와 일치하는 일본판 원본 ISO를 지정합니다.
-4. `XDelta patch`에 `digicarr_fantasy_excellent_kr_v0.4.xdelta`를 지정합니다.
+4. `XDelta patch`에 `digicarr_fantasy_excellent_kr_v0.4.1.xdelta`를 지정합니다.
 5. 패치를 적용해 새 ISO를 만듭니다.
 
 원본 ISO에 직접 덮어쓰기보다는 새 출력 파일을 만드는 것을 권장합니다.
 
-### v0.4 패치 파일
+### v0.4.1 패치 파일
 
 | 항목 | 값 |
 | --- | --- |
-| 파일명 | `digicarr_fantasy_excellent_kr_v0.4.xdelta` |
-| 크기 | `113,122,554 bytes` |
-| SHA-256 | `bd3831f2c1400ab00e5f708b9d0c4fcae0bd3c59010fdc8ccf579b63967a02d8` |
+| 파일명 | `digicarr_fantasy_excellent_kr_v0.4.1.xdelta` |
+| 크기 | `113,122,821 bytes` |
+| SHA-256 | `3a7866b2de843fc81afa1c73e9acc1f166c441c347896b2da723d5d0530617fb` |
 
 패치 생성 후 깨끗한 원본 ISO에 다시 적용해 최종 ISO와 **byte-for-byte 동일**한 것을 검증했습니다.
 
@@ -69,11 +69,13 @@ v0.4 상세 기록: [Issue #2 추가 제보 대응 기록](docs/issue2-20261026.
 | 항목 | 값 |
 | --- | --- |
 | 크기 | `1,646,854,144 bytes` |
-| MD5 | `9b3c59f5091b8051f5f1594ea3b6d0b2` |
-| SHA-1 | `dc16af7cf423f297b23654467ed85be31b1d5672` |
-| SHA-256 | `813a16292b6fc2976bad55395e0746f565b346e0309760046546fff7c644f8c8` |
+| MD5 | `ad86f01712567ef3a94edc2476620ae8` |
+| SHA-1 | `12ee3f7c7ff455c0201bfbb86a0bd9fb453c2eeb` |
+| SHA-256 | `e297e2267ec0aed99282709e75cb30897783b4f69cb18cd60c440d2c821920c2` |
 
-### v0.4 주요 수정
+### v0.4.1 주요 수정
+
+- 이슈에서 요청한 아라비아 숫자 표기를 대사 676개 및 선택지·장면 제목·시스템·크레딧 등에 반영 (팔년 → 8년, 두 사람 → 2명). 자세한 내용: [릴리즈 노트](RELEASE_NOTES_v0.4.1.md)
 
 - 공백 뒤에 앞 글자의 획이 흰 세로선처럼 남던 반각 문자 변환 버퍼 오류 수정
 - 부탁드릴께요/할께요/도울께 등 맞춤법, 배고 고프고/댕겅 등 오타 수정
@@ -83,7 +85,7 @@ v0.4 상세 기록: [Issue #2 추가 제보 대응 기록](docs/issue2-20261026.
 - 단어·호칭이 줄 사이에서 끊기거나 교정 후 줄 폭이 늘어난 504개 문장 재배치
 - 엔딩의 おしまい 배경 이미지를 끝으로 번역
 
-자세한 검증 범위와 해시는 [v0.4 배포 기록](RELEASE_NOTES_v0.4.md)을 참고해 주세요. 실제 PCSX2 화면 재확인은 미실시이며, 일부 흰색 대사는 추가 확인이 필요합니다.
+자세한 검증 범위와 해시는 [v0.4.1 배포 기록](RELEASE_NOTES_v0.4.1.md)을 참고해 주세요. 실제 PCSX2 화면 재확인은 미실시이며, 일부 흰색 대사는 추가 확인이 필요합니다.
 
 ### v0.3 주요 수정
 
