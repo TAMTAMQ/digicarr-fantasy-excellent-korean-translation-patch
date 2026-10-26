@@ -10,74 +10,278 @@
     }
   },
   "choice_fallbacks": {
-    "とにかく行ってみよう": {"target_ko": "하여간，가보자。", "method": "windows_pc_ko_phrase"},
-    "そういえばゲーマーズはどうなったんだろう？": {"target_ko": "그러고 보니，게이머즈는 어떻게 됐을까？", "method": "direct_translation"},
-    "大きな屋敷を訪れる": {"target_ko": "커다란　저택을　방문한다", "method": "windows_pc_ko"},
-    "変わった建物を見に行く": {"target_ko": "이상한　건물을　보러　간다", "method": "windows_pc_ko"},
-    "森の中へ戻る": {"target_ko": "숲으로　돌아간다", "method": "windows_pc_ko"},
-    "右に行く": {"target_ko": "오른쪽으로", "method": "windows_pc_ko"},
-    "村の中心を目指す": {"target_ko": "마을의　중심부로　향한다", "method": "windows_pc_ko"},
-    "湖に行ってみる": {"target_ko": "호수로　가본다", "method": "windows_pc_ko"},
-    "一番近い家を訪ねる": {"target_ko": "가장　가까운　집을　방문한다", "method": "windows_pc_ko"},
-    "急いで神社へ行く": {"target_ko": "서둘러서　사당으로　간다", "method": "windows_pc_ko"},
-    "左に行く": {"target_ko": "왼쪽으로", "method": "windows_pc_ko"},
-    "もう少しよく考えてみる": {"target_ko": "조금　더　생각해　본다", "method": "direct_translation"},
-    "からかう": {"target_ko": "놀린다", "method": "windows_pc_ko"},
-    "フォローする": {"target_ko": "맞장구를　쳐준다", "method": "windows_pc_ko"},
-    "素直に返す": {"target_ko": "솔직하게　받아　들인다", "method": "windows_pc_ko"},
-    "ＳＥカットテスト": {"target_ko": "SE 컷 테스트", "method": "direct_translation"},
-    "ワイプテスト１　ブラックアウト": {"target_ko": "와이프 테스트1　블랙아웃", "method": "direct_translation"},
-    "ワイプテスト２　ホワイトアウト": {"target_ko": "와이프 테스트2　화이트아웃", "method": "direct_translation"},
-    "ワイプテスト３　絵のつなぎ": {"target_ko": "와이프 테스트3　화면 연결", "method": "direct_translation"},
-    "他テスト": {"target_ko": "기타 테스트", "method": "direct_translation"},
-    "地震テスト": {"target_ko": "지진 테스트", "method": "direct_translation"},
-    "フラッシュテスト": {"target_ko": "플래시 테스트", "method": "direct_translation"},
-    "キャラ表示テスト": {"target_ko": "캐릭터 표시 테스트", "method": "direct_translation"},
-    "エフェクトテスト": {"target_ko": "이펙트 테스트", "method": "direct_translation"},
-    "前へ戻る": {"target_ko": "이전으로 돌아가기", "method": "direct_translation"},
-    "まっど": {"target_ko": "매드", "method": "direct_translation"},
-    "地震ゆれ幅テスト": {"target_ko": "지진 흔들림 폭 테스트", "method": "direct_translation"},
-    "地震ＳＥ同期テスト": {"target_ko": "지진 SE 동기화 테스트", "method": "direct_translation"},
-    "ＰＣ版フラッシュテスト": {"target_ko": "PC판 플래시 테스트", "method": "direct_translation"},
-    "ＤＣ版フラッシュテスト": {"target_ko": "DC판 플래시 테스트", "method": "direct_translation"},
-    "演出用フラッシュテスト": {"target_ko": "연출용 플래시 테스트", "method": "direct_translation"},
-    "単発フラッシュテスト": {"target_ko": "단발 플래시 테스트", "method": "direct_translation"},
-    "継続フラッシュテスト": {"target_ko": "연속 플래시 테스트", "method": "direct_translation"},
-    "キャラ表示位置テスト": {"target_ko": "캐릭터 표시 위치 테스트", "method": "direct_translation"},
-    "でじこ・うさだ・ぷちこ": {"target_ko": "데지코・우사다・푸치코", "method": "direct_translation"},
-    "ゲマ・雛菊・雛菊父": {"target_ko": "게마・히나기쿠・히나기쿠 아버지", "method": "direct_translation"},
-    "カレラ・グレッグ・ウェンディ": {"target_ko": "카레라・그레그・웬디", "method": "direct_translation"},
-    "次の項目へ": {"target_ko": "다음 항목으로", "method": "direct_translation"},
-    "カイン・セシル・ルーン": {"target_ko": "카인・세실・룬", "method": "direct_translation"},
-    "ルナ・エリカ・鈴": {"target_ko": "루나・에리카・링", "method": "direct_translation"},
-    "邪神・その他": {"target_ko": "사신・기타", "method": "direct_translation"},
-    "でじこ": {"target_ko": "데지코", "method": "direct_translation"},
-    "うさだ": {"target_ko": "우사다", "method": "direct_translation"},
-    "ぷちこ": {"target_ko": "푸치코", "method": "direct_translation"},
-    "ゲマ": {"target_ko": "게마", "method": "direct_translation"},
-    "雛菊": {"target_ko": "히나기쿠", "method": "direct_translation"},
-    "雛菊父": {"target_ko": "히나기쿠 아버지", "method": "direct_translation"},
-    "カレラ": {"target_ko": "카레라", "method": "direct_translation"},
-    "グレッグ（カレラ父）": {"target_ko": "그레그（카레라 아버지）", "method": "direct_translation"},
-    "ウェンディ": {"target_ko": "웬디", "method": "direct_translation"},
-    "カイン": {"target_ko": "카인", "method": "direct_translation"},
-    "セシル": {"target_ko": "세실", "method": "direct_translation"},
-    "ルーン": {"target_ko": "룬", "method": "direct_translation"},
-    "ルナ": {"target_ko": "루나", "method": "direct_translation"},
-    "エリカ": {"target_ko": "에리카", "method": "direct_translation"},
-    "鈴": {"target_ko": "링", "method": "direct_translation"},
-    "邪神": {"target_ko": "사신", "method": "direct_translation"},
-    "その他": {"target_ko": "기타", "method": "direct_translation"},
-    "カイン・ルーン・エリカ": {"target_ko": "카인・룬・에리카", "method": "direct_translation"},
-    "雛菊・鈴・カレラ・ウェンディ": {"target_ko": "히나기쿠・링・카레라・웬디", "method": "direct_translation"},
-    "前へもどる": {"target_ko": "이전으로 돌아가기", "method": "direct_translation"},
-    "雛菊に手を貸してもらえるよう相談する": {"target_ko": "히나기쿠에게　도와달라고　상담해　본다", "method": "windows_pc_ko"},
-    "やっぱりひとりで帽子を探しに行く": {"target_ko": "역시　혼자서　모자를　찾으러　간다", "method": "windows_pc_ko"},
-    "ここはやはり、くまなく探そう！": {"target_ko": "역시　이곳을　샅샅이　뒤져보자！", "method": "windows_pc_ko"},
-    "今日のぼくは勘がさえてる。きっとこっちだ！": {"target_ko": "오늘의　내　감이　말한다。분명　이쪽이다！", "method": "windows_pc_ko"},
-    "太陽を見て判断してみる": {"target_ko": "태양을 보고 판단해 본다", "method": "direct_translation"},
-    "勘に頼って進む": {"target_ko": "감에 의지해 나아간다", "method": "direct_translation"},
-    "引き返す": {"target_ko": "되돌아간다", "method": "direct_translation"}
+    "とにかく行ってみよう": {
+      "target_ko": "하여간，가보자。",
+      "method": "windows_pc_ko_phrase"
+    },
+    "そういえばゲーマーズはどうなったんだろう？": {
+      "target_ko": "그러고 보니，게이머즈는 어떻게 됐을까？",
+      "method": "direct_translation"
+    },
+    "大きな屋敷を訪れる": {
+      "target_ko": "커다란　저택을　방문한다",
+      "method": "windows_pc_ko"
+    },
+    "変わった建物を見に行く": {
+      "target_ko": "이상한　건물을　보러　간다",
+      "method": "windows_pc_ko"
+    },
+    "森の中へ戻る": {
+      "target_ko": "숲으로　돌아간다",
+      "method": "windows_pc_ko"
+    },
+    "右に行く": {
+      "target_ko": "오른쪽으로",
+      "method": "windows_pc_ko"
+    },
+    "村の中心を目指す": {
+      "target_ko": "마을의　중심부로　향한다",
+      "method": "windows_pc_ko"
+    },
+    "湖に行ってみる": {
+      "target_ko": "호수로　가본다",
+      "method": "windows_pc_ko"
+    },
+    "一番近い家を訪ねる": {
+      "target_ko": "가장　가까운　집을　방문한다",
+      "method": "windows_pc_ko"
+    },
+    "急いで神社へ行く": {
+      "target_ko": "서둘러서　사당으로　간다",
+      "method": "windows_pc_ko"
+    },
+    "左に行く": {
+      "target_ko": "왼쪽으로",
+      "method": "windows_pc_ko"
+    },
+    "もう少しよく考えてみる": {
+      "target_ko": "조금　더　생각해　본다",
+      "method": "direct_translation"
+    },
+    "からかう": {
+      "target_ko": "놀린다",
+      "method": "windows_pc_ko"
+    },
+    "フォローする": {
+      "target_ko": "맞장구를　쳐준다",
+      "method": "windows_pc_ko"
+    },
+    "素直に返す": {
+      "target_ko": "솔직하게　받아　들인다",
+      "method": "windows_pc_ko"
+    },
+    "ＳＥカットテスト": {
+      "target_ko": "SE 컷 테스트",
+      "method": "direct_translation"
+    },
+    "ワイプテスト１　ブラックアウト": {
+      "target_ko": "와이프 테스트1　블랙아웃",
+      "method": "direct_translation"
+    },
+    "ワイプテスト２　ホワイトアウト": {
+      "target_ko": "와이프 테스트2　화이트아웃",
+      "method": "direct_translation"
+    },
+    "ワイプテスト３　絵のつなぎ": {
+      "target_ko": "와이프 테스트3　화면 연결",
+      "method": "direct_translation"
+    },
+    "他テスト": {
+      "target_ko": "기타 테스트",
+      "method": "direct_translation"
+    },
+    "地震テスト": {
+      "target_ko": "지진 테스트",
+      "method": "direct_translation"
+    },
+    "フラッシュテスト": {
+      "target_ko": "플래시 테스트",
+      "method": "direct_translation"
+    },
+    "キャラ表示テスト": {
+      "target_ko": "캐릭터 표시 테스트",
+      "method": "direct_translation"
+    },
+    "エフェクトテスト": {
+      "target_ko": "이펙트 테스트",
+      "method": "direct_translation"
+    },
+    "前へ戻る": {
+      "target_ko": "이전으로 돌아가기",
+      "method": "direct_translation"
+    },
+    "まっど": {
+      "target_ko": "매드",
+      "method": "direct_translation"
+    },
+    "地震ゆれ幅テスト": {
+      "target_ko": "지진 흔들림 폭 테스트",
+      "method": "direct_translation"
+    },
+    "地震ＳＥ同期テスト": {
+      "target_ko": "지진 SE 동기화 테스트",
+      "method": "direct_translation"
+    },
+    "ＰＣ版フラッシュテスト": {
+      "target_ko": "PC판 플래시 테스트",
+      "method": "direct_translation"
+    },
+    "ＤＣ版フラッシュテスト": {
+      "target_ko": "DC판 플래시 테스트",
+      "method": "direct_translation"
+    },
+    "演出用フラッシュテスト": {
+      "target_ko": "연출용 플래시 테스트",
+      "method": "direct_translation"
+    },
+    "単発フラッシュテスト": {
+      "target_ko": "단발 플래시 테스트",
+      "method": "direct_translation"
+    },
+    "継続フラッシュテスト": {
+      "target_ko": "연속 플래시 테스트",
+      "method": "direct_translation"
+    },
+    "キャラ表示位置テスト": {
+      "target_ko": "캐릭터 표시 위치 테스트",
+      "method": "direct_translation"
+    },
+    "でじこ・うさだ・ぷちこ": {
+      "target_ko": "데지코・우사다・푸치코",
+      "method": "direct_translation"
+    },
+    "ゲマ・雛菊・雛菊父": {
+      "target_ko": "게마・히나기쿠・히나기쿠 아버지",
+      "method": "direct_translation"
+    },
+    "カレラ・グレッグ・ウェンディ": {
+      "target_ko": "카레라・그레그・웬디",
+      "method": "direct_translation"
+    },
+    "次の項目へ": {
+      "target_ko": "다음 항목으로",
+      "method": "direct_translation"
+    },
+    "カイン・セシル・ルーン": {
+      "target_ko": "카인・세실・룬",
+      "method": "direct_translation"
+    },
+    "ルナ・エリカ・鈴": {
+      "target_ko": "루나・에리카・링",
+      "method": "direct_translation"
+    },
+    "邪神・その他": {
+      "target_ko": "악신・기타",
+      "method": "direct_translation"
+    },
+    "でじこ": {
+      "target_ko": "데지코",
+      "method": "direct_translation"
+    },
+    "うさだ": {
+      "target_ko": "우사다",
+      "method": "direct_translation"
+    },
+    "ぷちこ": {
+      "target_ko": "푸치코",
+      "method": "direct_translation"
+    },
+    "ゲマ": {
+      "target_ko": "게마",
+      "method": "direct_translation"
+    },
+    "雛菊": {
+      "target_ko": "히나기쿠",
+      "method": "direct_translation"
+    },
+    "雛菊父": {
+      "target_ko": "히나기쿠 아버지",
+      "method": "direct_translation"
+    },
+    "カレラ": {
+      "target_ko": "카레라",
+      "method": "direct_translation"
+    },
+    "グレッグ（カレラ父）": {
+      "target_ko": "그레그（카레라 아버지）",
+      "method": "direct_translation"
+    },
+    "ウェンディ": {
+      "target_ko": "웬디",
+      "method": "direct_translation"
+    },
+    "カイン": {
+      "target_ko": "카인",
+      "method": "direct_translation"
+    },
+    "セシル": {
+      "target_ko": "세실",
+      "method": "direct_translation"
+    },
+    "ルーン": {
+      "target_ko": "룬",
+      "method": "direct_translation"
+    },
+    "ルナ": {
+      "target_ko": "루나",
+      "method": "direct_translation"
+    },
+    "エリカ": {
+      "target_ko": "에리카",
+      "method": "direct_translation"
+    },
+    "鈴": {
+      "target_ko": "링",
+      "method": "direct_translation"
+    },
+    "邪神": {
+      "target_ko": "악신",
+      "method": "direct_translation"
+    },
+    "その他": {
+      "target_ko": "기타",
+      "method": "direct_translation"
+    },
+    "カイン・ルーン・エリカ": {
+      "target_ko": "카인・룬・에리카",
+      "method": "direct_translation"
+    },
+    "雛菊・鈴・カレラ・ウェンディ": {
+      "target_ko": "히나기쿠・링・카레라・웬디",
+      "method": "direct_translation"
+    },
+    "前へもどる": {
+      "target_ko": "이전으로 돌아가기",
+      "method": "direct_translation"
+    },
+    "雛菊に手を貸してもらえるよう相談する": {
+      "target_ko": "히나기쿠에게　도와달라고　상담해　본다",
+      "method": "windows_pc_ko"
+    },
+    "やっぱりひとりで帽子を探しに行く": {
+      "target_ko": "역시　혼자서　모자를　찾으러　간다",
+      "method": "windows_pc_ko"
+    },
+    "ここはやはり、くまなく探そう！": {
+      "target_ko": "역시　이곳을　샅샅이　뒤져보자！",
+      "method": "windows_pc_ko"
+    },
+    "今日のぼくは勘がさえてる。きっとこっちだ！": {
+      "target_ko": "오늘의　내　감이　말한다。분명　이쪽이다！",
+      "method": "windows_pc_ko"
+    },
+    "太陽を見て判断してみる": {
+      "target_ko": "태양을 보고 판단해 본다",
+      "method": "direct_translation"
+    },
+    "勘に頼って進む": {
+      "target_ko": "감에 의지해 나아간다",
+      "method": "direct_translation"
+    },
+    "引き返す": {
+      "target_ko": "되돌아간다",
+      "method": "direct_translation"
+    }
   },
   "title_reuse": {
     "冒険のはじまり": "모험의　시작",
@@ -175,7 +379,7 @@
     "ぴよこ編（シーン９）": "삐요코편（장면９）",
     "力を合わせるぴょ": "힘을　합친다뾰",
     "ぴよこ編（シーン１０）": "삐요코편（장면１０）",
-    "邪神を倒すぴょ": "사신을　쓰러뜨린다뾰",
+    "邪神を倒すぴょ": "악신을　쓰러뜨린다뾰",
     "ぴよこ編（シーン１１）": "삐요코편（장면１１）",
     "ぴよこ編（シーン１２）": "삐요코편（장면１２）"
   },
@@ -193,7 +397,7 @@
     "剣Ｂ": "검Ｂ",
     "爪赤": "발톱 빨강",
     "爪青": "발톱 파랑",
-    "邪神": "사신",
+    "邪神": "악신",
     "雛菊": "히나기쿠",
     "うさだ": "우사다",
     "その他": "기타",
@@ -259,9 +463,9 @@
     "ヒットマーク": "히트 마크",
     "レンズフレア": "렌즈 플레어",
     "明るさテスト": "밝기 테스트",
-    "邪神攻撃用１": "사신 공격용１",
-    "邪神攻撃用２": "사신 공격용２",
-    "邪神攻撃用３": "사신 공격용３",
+    "邪神攻撃用１": "악신 공격용１",
+    "邪神攻撃用２": "악신 공격용２",
+    "邪神攻撃用３": "악신 공격용３",
     "ワイプテスト１": "와이프 테스트１",
     "ＢＧスクロール": "ＢＧ 스크롤",
     "エフェクトテスト": "이펙트 테스트",
@@ -326,5 +530,67 @@
     "「でも、時すでに遅しにょ。\nあんたより先に、もうじきあたしがこの世界を手\nに入れてみせるにょ！」": "「하지만，이미 늦었다뇨。\n너보다 먼저，이제 곧 내가 이 세계를 손에\n넣어 보이겠다뇨！」",
     "「そっかぁ」": "「그렇구나」",
     "「とどめだァ！」": "「끝장이다！」"
+  },
+  "reviewed_overrides": {
+    "　　　　　　うさださんのこと": {
+      "expected_ko": "　　　　　　우사다씨에　대해",
+      "target_ko": "　　　　　　우사다 씨에　대해"
+    },
+    "　　　自分もうさださんと一緒にいく": {
+      "expected_ko": "　　　나도　우사다씨와　함께　찾으러　간다",
+      "target_ko": "　　　나도　우사다 씨와　함께　찾으러　간다"
+    },
+    "　　　　 邪神だっ！　逃げろー！": {
+      "expected_ko": "　　　　 사신이다！　도망쳐―！",
+      "target_ko": "　　　　 악신이다！　도망쳐―！"
+    },
+    "　　　　　 きっと雛菊さんだ！": {
+      "expected_ko": "　　　　　 분명　히나기쿠씨다！",
+      "target_ko": "　　　　　 분명　히나기쿠 씨다！"
+    },
+    "　　　 間違いなく、うさださんだ！": {
+      "expected_ko": "　　　 틀림없이，우사다씨다！！",
+      "target_ko": "　　　 틀림없이，우사다 씨다！！"
+    },
+    "　　　　 うさださんを問い詰める": {
+      "expected_ko": "　　　　 우사다씨를　책망한다",
+      "target_ko": "　　　　 우사다 씨를　책망한다"
+    },
+    "　カインさんがこの木を倒したんですか？": {
+      "expected_ko": "　카인씨가　이　나무를　쓰러뜨렸나요？",
+      "target_ko": "　카인 씨가　이　나무를　쓰러뜨렸나요？"
+    },
+    "　　　　　　ゲマさんは・・・": {
+      "expected_ko": "　　　　　　게마씨는···",
+      "target_ko": "　　　　　　게마 씨는···"
+    },
+    "　　　　　 うさださんは・・・": {
+      "expected_ko": "　　　　　 우사다씨는···",
+      "target_ko": "　　　　　 우사다 씨는···"
+    },
+    "　　　　カインさんに相談してみる": {
+      "expected_ko": "　　　　카인씨와　상담해　본다",
+      "target_ko": "　　　　카인 씨와　상담해　본다"
+    },
+    "　　　　　 エリカさんに教える": {
+      "expected_ko": "　　　　　 에리카씨에게　알린다",
+      "target_ko": "　　　　　 에리카 씨에게　알린다"
+    },
+    "　　　　　 うさださんに任せる": {
+      "expected_ko": "　　　　　 우사다씨에게　맡긴다",
+      "target_ko": "　　　　　 우사다 씨에게　맡긴다"
+    },
+    "　　　　　 うさださん、どうぞ": {
+      "expected_ko": "　　　　　 우사다씨，먼저",
+      "target_ko": "　　　　　 우사다 씨，먼저"
+    },
+    "　　　　　 エリカさん、どうぞ": {
+      "expected_ko": "　　　　　 에리카씨，먼저",
+      "target_ko": "　　　　　 에리카 씨，먼저"
+    },
+    "鈴、ふたたび・・・": {
+      "expected_ko": "링，다시　한번···",
+      "target_ko": "링，다시　한 번···"
+    }
   }
 }

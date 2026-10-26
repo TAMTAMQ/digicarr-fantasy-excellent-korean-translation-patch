@@ -35,6 +35,37 @@ TEXT_NORMALIZATION = {
 }
 
 
+def patch_ascii_glyph_padding(executable: bytes) -> tuple[bytes, dict]:
+    """Clear the unwritten right 8 columns of the shared 24x24 glyph buffer.
+
+    The native 0x128CA8 converter expands 16x24 ASCII, then skips 8 columns
+    per row without writing them. A preceding full-width glyph leaves pixels
+    there, which reach the atlas and bleed at the half-width sprite boundary.
+    Two NOPs in the existing two-iteration padding loop can zero those columns
+    without changing the loop, glyph size, advance, palette or buffer layout.
+    """
+    start = 0x128E08 - 0xFF000
+    expected = bytes.fromhex(
+        "06002229 0a004050 01003927 00000000 01002925 06002229 "
+        "00000000 00000000 00000000 faff4014 08004a25"
+    )
+    if executable[start:start + len(expected)] != expected:
+        raise ValueError("ASCII glyph padding loop does not match supported executable")
+    out = bytearray(executable)
+    # sw zero,0(t2); sw zero,4(t2). Each iteration clears four 16-bit pixels.
+    offset = 0x128E20 - 0xFF000
+    out[offset:offset + 8] = bytes.fromhex("000040ad 040040ad")
+    return bytes(out), {
+        "routine_va": "0x128CA8",
+        "patch_va": "0x128E20",
+        "file_offset": offset,
+        "before_hex": executable[offset:offset + 8].hex(),
+        "after_hex": out[offset:offset + 8].hex(),
+        "cleared_columns_per_row": 8,
+        "rows": 24,
+    }
+
+
 @dataclass(frozen=True)
 class HangulCodeMap:
     char_to_code: Mapping[str, int]

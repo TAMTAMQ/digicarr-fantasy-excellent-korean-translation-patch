@@ -87,6 +87,7 @@ def build_auxiliary_plan(
     title_reuse: dict[str, str] = aux["title_reuse"]
     title_overrides: dict[str, str] = aux["title_overrides"]
     direct_titles: dict[str, str] = aux["direct_titles"]
+    reviewed_overrides: dict[str, dict[str, str]] = aux.get("reviewed_overrides", {})
 
     plan: dict[int, dict[tuple[int, int], tuple[bytes, str]]] = {}
     rows: list[dict[str, Any]] = []
@@ -103,6 +104,12 @@ def build_auxiliary_plan(
         target: str,
         method: str,
     ) -> None:
+        override = reviewed_overrides.get(source_text)
+        if override is not None:
+            if target != override["expected_ko"]:
+                raise ValueError(f"reviewed auxiliary target changed: {source_text!r}: {target!r}")
+            target = override["target_ko"]
+            method += "+reviewed"
         key = (command_index, field_index)
         dest = plan.setdefault(entry_index, {})
         previous = dest.get(key)

@@ -16,6 +16,7 @@ import pycdlib
 from PIL import Image
 
 from credits_codec import encode_credit_payloads, load_credit_plan
+from end_card import render_end_card
 from font_codec import (
     KANJI_CELL_BYTES,
     KANJI_CELL_HEIGHT,
@@ -27,6 +28,7 @@ from font_codec import (
     first_level_kanji_codes,
     normalize_text,
     patch_kanji_font,
+    patch_ascii_glyph_padding,
 )
 from formats import AfsArchive, Ps2Pak, read_iso_file, sha256_file
 from image_formats import (
@@ -761,6 +763,11 @@ def main() -> None:
                     f"Korean BG image must be 800x600 or 640x480: {png_path.name}={image.size}"
                 )
             bg_image_payloads[entry_name] = encode_five_tile_screen_like(bg.read(entry_name), image)
+    # bg100 was overlooked because it is a background, not an ending movie.
+    # Generate the plain black/text card from a tracked native source.
+    bg_image_payloads["bg100.dat"] = encode_five_tile_screen_like(
+        bg.read("bg100.dat"), render_end_card(font_path)
+    )
     bg_patched = bg.patch_same_size(bg_image_payloads)
     patched_bg = Ps2Pak(bg_patched)
     for old_entry, new_entry in zip(bg.entries, patched_bg.entries, strict=True):
@@ -811,6 +818,7 @@ def main() -> None:
 
     slpm_patched, system_report = patch_system_strings(slpm_original, system_rows, code_map)
     slpm_patched, name_input_report = patch_name_input(slpm_patched, code_map)
+    slpm_patched, ascii_padding_report = patch_ascii_glyph_padding(slpm_patched)
     if len(slpm_patched) != len(slpm_original):
         raise ValueError("SLPM system-string patch changed executable length")
     system_roundtrip_verified = 0
@@ -971,6 +979,7 @@ def main() -> None:
         },
         "name_input": name_input_report,
         "font": {
+            "ascii_padding_fix": ascii_padding_report,
             "source": str(font_path),
             "source_sha256": sha256_file(font_path),
             "format": f"{KANJI_CELL_WIDTH}x{KANJI_CELL_HEIGHT} 2bpp / {KANJI_CELL_BYTES} bytes",
